@@ -1,0 +1,86 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+body{
+	background:lightblue;
+	display:block;
+	margin:8px;
+}
+#container{
+	width:850px;
+	height:566px;
+	margin:0px auto;
+	top:0px;
+	left:300px;
+	color:gray;
+	perspective:600px;
+	perspective-origin:-20% 20%;
+}
+#butterfly{
+	top:0px;
+	left:0px;
+	width:400px;
+	height:238px;
+	transform-style:preserve-3d;
+	transform:rotatez(-30deg) rotate3d(0,1,0,0deg) scale3d(0.5,0.5,0.5);
+	transform-origin:51% 50%;
+}
+#butterfly .left{
+	top:0px;
+	left:0px;
+	animation-name:leftwingani;
+	transform:rotatex(30deg) rotate3d(0,1,0,0deg);
+}
+.wing{
+	top:0px;
+	left:200px;
+	width:200px;
+	height:238px;
+	background:url("../butterfly.png") no-repeat;
+	position:absolute;
+	transform-origin:top right;
+	transform:rotatex(30deg) translate3d(-200px,0px,0px) rotate3d(0,1,0,160deg);
+	animation-name:rightwingani;
+	animation-duration:0.6s;
+	animation-delay:1s;
+	animation-iteration-count:4;
+	animation-timing-function:ease-out;
+	-webkit-animation-iteration-count:infinite;
+}
+@keyframes leftwingani{
+	from{
+		transform:rotatex(30deg) rotate3d(0,1,0,0deg);
+	}
+	50%{
+		transform:rotatex(30deg) rotate3d(0,1,0,80deg);
+	}
+	to{
+		transform:rotatex(30deg) rotate3d(0,1,0,00deg);
+	}
+}
+@keyframes rightwingani{
+	from{
+		transform:rotatex(30deg) translate3d(-200px,0px,0px) rotate3d(0,1,0,160deg);
+	}
+	50%{
+		transform:rotatex(30deg) translate3d(-200px,0px,0px) rotate3d(0,1,0,100deg);
+	}
+	to{
+		transform:rotatex(30deg) translate3d(-200px,0px,0px) rotate3d(0,1,0,160deg);
+	}
+}
+.enter{
+	width:300px;
+	height:100px;
+	background:lightblue;
+	margin-top:100px;
+	margin-left:300px;
+}
+.enter>a{
+	color:black;
+	font-size:18px;
+	font-family:"微软雅黑";
+	text-decoration:none;
+}

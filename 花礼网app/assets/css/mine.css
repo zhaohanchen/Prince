@@ -1,0 +1,192 @@
+@charset "UTF-8";
+a {
+  text-decoration: none; }
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 3.74074rem;
+  background: url("../images/minebg.jpg") no-repeat center center;
+  background-size: 100%; }
+  .header i {
+    position: absolute;
+    top: 0.27778rem;
+    right: 0.27778rem;
+    font-size: 0.7963rem;
+    color: #fff; }
+  .header .welcome {
+    margin-top: 1.31481rem; }
+    .header .welcome h1 {
+      font-size: 0.37037rem;
+      color: #fff;
+      font-family: '微软雅黑'; }
+    .header .welcome .reglogin {
+      margin-top: 0.40741rem;
+      margin-left: 0.22222rem;
+      width: 2.03704rem;
+      height: 0.38889rem;
+      padding: 0.18519rem 0.2963rem;
+      background-color: #fff; }
+      .header .welcome .reglogin a {
+        color: #adadad;
+        font-size: 0.38889rem;
+        font-family: '微软雅黑'; }
+      .header .welcome .reglogin span {
+        color: #adadad;
+        font-size: 0.38889rem;
+        font-family: '微软雅黑'; }
+
+.orders {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2.03704rem; }
+  .orders div i {
+    font-size: 0.68519rem;
+    color: #565656; }
+  .orders div h3 {
+    font-size: 0.2963rem;
+    color: #555;
+    font-family: '微软雅黑'; }
+  .orders .daifukuan i {
+    margin-left: 0.14815rem;
+    font-size: 0.62963rem; }
+  .orders .daifukuan h3 {
+    margin-top: 0.11111rem;
+    margin-top: 0.18519rem; }
+  .orders .peisong i {
+    margin-left: 0.25926rem;
+    font-size: 0.62963rem; }
+  .orders .peisong h3 {
+    margin-top: 0.11111rem;
+    margin-top: 0.18519rem; }
+  .orders .daipingjia i {
+    margin-left: 0.14815rem;
+    font-size: 0.62963rem; }
+  .orders .daipingjia h3 {
+    margin-top: 0.18519rem; }
+  .orders .all i {
+    margin-left: 0.24074rem;
+    font-size: 0.66667rem; }
+  .orders .all h3 {
+    margin-top: 0.14815rem; }
+
+.kong1 {
+  height: 0.22222rem;
+  background-color: #f3f3f6; }
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #f3f3f6; }
+  .section div {
+    margin-top: 0.05556rem;
+    margin-left: 0.05556rem;
+    width: 2.4537rem;
+    height: 2.46296rem;
+    text-align: center;
+    background-color: #fff; }
+    .section div i {
+      display: inline-block;
+      margin-top: 0.59259rem;
+      font-size: 0.74074rem;
+      text-align: center; }
+    .section div h3 {
+      margin-top: 0.25926rem;
+      font-size: 0.31481rem;
+      text-align: center;
+      color: #333;
+      font-family: '微软雅黑'; }
+  .section .one {
+    margin-left: 0; }
+    .section .one i {
+      color: #ff7a7a; }
+  .section .two i {
+    color: #fcb465; }
+  .section .three i {
+    color: #fe6600; }
+  .section .four i {
+    color: #fcb465; }
+  .section .five {
+    margin-left: 0; }
+    .section .five i {
+      color: #fe7201; }
+  .section .six i {
+    color: #87c7e9; }
+  .section .seven i {
+    color: #ff6600; }
+  .section .eight i {
+    color: #9edb77; }
+  .section .nine {
+    margin-left: 0; }
+    .section .nine i {
+      color: #87c7e9; }
+  .section .ten i {
+    color: #9fdc79; }
+  .section .eleven i {
+    color: #ff8f8f; }
+
+.guanli {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.11111rem;
+  padding-left: 0.27778rem;
+  padding-right: 0.27778rem; }
+  .guanli h3 {
+    font-size: 0.37037rem;
+    color: #333;
+    font-family: '微软雅黑'; }
+  .guanli h4 {
+    font-family: '微软雅黑';
+    font-size: 0.31481rem;
+    color: #777; }
+
+.kong2 {
+  height: 2.03704rem;
+  background-color: #f3f3f6; }
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 1.2037rem;
+  border-top: 0.01852rem solid #ccc;
+  background-color: #f8f8f8; }
+  .nav div h3 {
+    font-size: 0.2963rem;
+    font-family: '微软雅黑';
+    color: #777; }
+  .nav .nav-1 h3 {
+    margin-top: 0.01852rem; }
+  .nav .nav-1 i {
+    font-size: 0.55556rem;
+    color: #777; }
+  .nav .nav-2 {
+    margin-top: 0.09259rem; }
+    .nav .nav-2 h3 {
+      margin-top: 0.09259rem; }
+    .nav .nav-2 i {
+      margin-left: 0.05556rem;
+      font-size: 0.40741rem;
+      color: #777; }
+  .nav .nav-3 i {
+    font-size: 0.59259rem;
+    color: #777; }
+  .nav .nav-4 h3 {
+    margin-top: 0.09259rem; }
+  .nav .nav-4 i {
+    margin-left: 0.09259rem;
+    font-size: 0.51852rem;
+    color: #777; }
+  .nav .nav-5 h3 {
+    margin-top: 0.09259rem; }
+  .nav .nav-5 i {
+    font-size: 0.51852rem;
+    color: #ff6427; }

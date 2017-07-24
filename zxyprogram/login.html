@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录——努比亚官方网站</title>
+    <link rel="stylesheet" href="dist/css/login.css">
+    <link rel="shortcut icon" href="http://static.nubia.cn/images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <!-- start 表格 -->
+    <div class="container">
+        <div class="logo"></div>
+        <form id="login">
+            <div class="navtab">
+                <label for="tab-mobile" class="tab-btn cur" style="margin-right:8px">
+                    努比亚账号登录
+                </label>
+                |
+                <label for="tab-email" class="tab-btn" style="margin-left:8px">
+                    手机验证码登录
+                </label>
+            </div>
+            <div class="navcon">
+                <div class="reg-id">
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="text" name="text" placeholder="邮箱/手机号码/用户名" datatype="m" errormsg="手机号码格式错误" nullmsg="手机号不能为空" sucmsg="恭喜，手机号正确">
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="password" value="" name="userpassword" placeholder="密码为6-16个字符（数字、字母、符号至少包含两种）" datatype="*6-15" errormsg="密码范围在6~15位之间！" />
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <a href="index.html">
+                <input type="button" value="立即登录" class="btn-login" style="margin-top: 10px;">
+            </a>
+            <div class="reg-now">
+                <a href="reg.html" style="color:#e8380d; font-size: 14px; ">注册新账号</a>
+                <span style="font-size: 18px;padding: 0 7px;color: #d5d5d5;">|</span>
+                <a style="color:#34383d;font-size: 14px;" href="#">忘记密码?</a>
+            </div>
+            <div class="third-login">
+                <span>其他方式登录：</span>
+                <label class="login-rem">
+                    <!--其他登录方式 -->
+                    <a href="/login/qqshow.action?back_url=http%3A%2F%2Fwww.nubia.com%2Fprofile.php%3Fa%3Dlogin%26amp%3BreturnUrl%3D%252Fmember.php" class="qq"></a>
+                    <a href="/login/sinashow.action?back_url=http%3A%2F%2Fwww.nubia.com%2Fprofile.php%3Fa%3Dlogin%26amp%3BreturnUrl%3D%252Fmember.php" class="weibo"></a>
+                    <a href="/login/zfbshow.action?back_url=http%3A%2F%2Fwww.nubia.com%2Fprofile.php%3Fa%3Dlogin%26amp%3BreturnUrl%3D%252Fmember.php" class="alipay"></a>
+                    <a href="/login/wxshow.action?back_url=http%3A%2F%2Fwww.nubia.com%2Fprofile.php%3Fa%3Dlogin%26amp%3BreturnUrl%3D%252Fmember.php" class="wx"></a>
+                </label>
+            </div>
+        </form>
+    </div>
+    <!-- end 表格 -->
+    <!-- start 脚部 -->
+    <div class="nb-footer">
+        <div class="nubia">
+            <p class="nb-footer-info"> 2012-2017 努比亚 版权所有 <a href="http://www.miibeian.gov.cn/">粤ICP备10006213号-2</a> ICP经营许可证编号：粤B2-20120688
+                <a href="https://cert.ebs.gov.cn/D52B1891-CB9A-4FD0-8BC6-1D5650B567CE" target="_blank" style="margin-right: 5px;margin-left: 3px;"><img src="dist/images/govIcon.png" border="0"></a> 努比亚技术有限公司</p>
+        </div>
+    </div>
+    <!-- end 脚部 -->
+    <script src="dist/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="dist/node_modules/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+    <script src="dist/js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,301 @@
+a {
+    text-decoration: none;
+}
+
+@function rem($arg) {
+    @return $arg/108px * 1rem;
+}
+
+body {
+    background-color: #f3f3f6;
+}
+
+.top {
+    position: relative;
+    height: rem(130px);
+    background-color: #f9f9f9;
+    p {
+        position: absolute;
+        left: rem(490px);
+        line-height: rem(130px);
+        text-align: center;
+        color: #555;
+        font-size: rem(50px);
+        font-family: '微软雅黑';
+    }
+    span {
+        position: absolute;
+        left: rem(38px);
+        font-size: rem(46px);
+        line-height: rem(130px);
+        color: #adadad;
+        font-family: '微软雅黑';
+    }
+}
+
+.logintop {
+    width: 100%;
+    height: rem(370px);
+    img {
+        width: rem(1080px);
+        height: rem(370px);
+    }
+}
+
+.denglu {
+    display: flex;
+    border-top: rem(3px) solid #ccc;
+    background-color: #fff;
+    li {
+        display: flex;
+        justify-content: space-around;
+        width: rem(372px);
+        height: rem(126px);
+        line-height: rem(126px);
+        padding-left: rem(84px);
+        padding-right: rem(84px);
+        i {
+            font-size: rem(52px);
+            color: #ff6427;
+        }
+        h3 {
+            font-size: rem(44px);
+            font-family: '微软雅黑';
+            color: #ff6427;
+        }
+    }
+    .phone {
+        border-bottom: rem(6px) solid #ff6427;
+        i {
+            font-size: rem(52px);
+            color: #ff6427;
+        }
+        h3 {
+            font-size: rem(44px);
+            font-family: '微软雅黑';
+            color: #ff6427;
+        }
+    }
+    .email {
+        i {
+            font-size: rem(52px);
+            color: #adadad;
+        }
+        h3 {
+            font-size: rem(44px);
+            font-family: '微软雅黑';
+            color: #adadad;
+        }
+    }
+}
+
+.kong1 {
+    height: rem(36px);
+    background-color: #f3f3f6;
+    border-bottom: rem(3px) solid #ccc;
+}
+
+.fangshi {
+    position: relative;
+    height: rem(276px);
+    border-bottom: rem(3px) solid #ccc;
+    .zhanghaologin {
+        position: absolute;
+        background-color: #fff;
+        .cardtop {
+            display: flex;
+            height: rem(136px);
+            line-height: rem(136px);
+            li:nth-child(1) {
+                width: rem(156px);
+                text-align: center;
+                font-size: rem(42px);
+                color: #555;
+                font-family: '微软雅黑';
+            }
+            li:nth-child(2) {
+                width: rem(924px);
+                height: rem(136px);
+                line-height: rem(136px);
+                input {
+                    outline: none;
+                    border: none;
+                    font-size: rem(42px);
+                    color: #adadad;
+                    font-family: '微软雅黑';
+                }
+            }
+        }
+        .cardbottom {
+            display: flex;
+            height: rem(136px);
+            line-height: rem(136px);
+            li:nth-child(1) {
+                width: rem(156px);
+                text-align: center;
+                font-size: rem(42px);
+                color: #555;
+                font-family: '微软雅黑';
+            }
+            li:nth-child(2) {
+                width: rem(924px);
+                height: rem(136px);
+                line-height: rem(136px);
+                border-top: rem(3px) solid #ccc;
+                input {
+                    outline: none;
+                    border: none;
+                    font-size: rem(42px);
+                    color: #adadad;
+                    font-family: '微软雅黑';
+                }
+            }
+        }
+    }
+    .fastlogin {
+        display: none;
+        background-color: #fff;
+        .cardtop {
+            display: flex;
+            height: rem(136px);
+            line-height: rem(136px);
+            li:nth-child(1) {
+                width: rem(210px);
+                text-align: center;
+                font-size: rem(42px);
+                color: #555;
+                font-family: '微软雅黑';
+            }
+            li:nth-child(2) {
+                width: rem(870px);
+                height: rem(136px);
+                line-height: rem(136px);
+                input {
+                    outline: none;
+                    border: none;
+                    font-size: rem(42px);
+                    color: #adadad;
+                    font-family: '微软雅黑';
+                }
+            }
+        }
+        .cardbottom {
+            display: flex;
+            height: rem(136px);
+            line-height: rem(136px);
+            li:nth-child(1) {
+                width: rem(210px);
+                text-align: center;
+                font-size: rem(42px);
+                color: #555;
+                font-family: '微软雅黑';
+            }
+            li:nth-child(2) {
+                display: flex;
+                justify-content: space-between;
+                width: rem(870px);
+                height: rem(136px);
+                line-height: rem(136px);
+                border-top: rem(3px) solid #ccc;
+                input {
+                    outline: none;
+                    border: none;
+                    font-size: rem(42px);
+                    color: #adadad;
+                    font-family: '微软雅黑';
+                }
+                p {
+                    width: rem(258px);
+                    text-align: center;
+                    font-size: rem(40px);
+                    color: #ff6427;
+                    font-family: '微软雅黑';
+                    border-left: rem(3px) solid #ccc;
+                }
+            }
+        }
+    }
+}
+
+.dengluba {
+    margin-top: rem(48px);
+    margin-left: rem(48px);
+    width: rem(984px);
+    height: rem(136px);
+    line-height: rem(136px);
+    text-align: center;
+    background-color: #e94e11;
+    color: #fff;
+    font-size: rem(46px);
+    font-family: '微软雅黑';
+    border-radius: rem(14px);
+}
+
+.underlogin {
+    display: flex;
+    justify-content: space-between;
+    padding-left: rem(48px);
+    padding-right: rem(48px);
+    margin-top: rem(60px);
+    h3 {
+        font-size: rem(36px);
+        color: #adadad;
+        font-family: '微软雅黑';
+    }
+}
+
+.down {
+    height: rem(74px);
+    padding-top: rem(38px);
+    padding-bottom: rem(38px);
+    margin-top: rem(534px);
+    background-color: #fff;
+    overflow: hidden;
+    ul {
+        display: flex;
+        li {
+            display: flex;
+            justify-content: space-around;
+            width: rem(242px);
+            height: rem(72px);
+            padding-left: rem(60px);
+            padding-right: rem(60px);
+            line-height: rem(72px);
+        }
+        .one {
+            i {
+                color: #51c332;
+                font-size: rem(52px);
+            }
+            h3 {
+                font-size: rem(36px);
+                color: #555;
+                font-family: '微软雅黑';
+            }
+        }
+        .two {
+            border-left: rem(3px) solid #ccc;
+            border-right: rem(3px) solid #ccc;
+            i {
+                color: #57a6fe;
+                font-size: rem(52px);
+            }
+            h3 {
+                font-size: rem(36px);
+                color: #555;
+                font-family: '微软雅黑';
+            }
+        }
+        .three {
+            i {
+                color: #ff7523;
+                font-size: rem(52px);
+            }
+            h3 {
+                font-size: rem(36px);
+                color: #555;
+                font-family: '微软雅黑';
+            }
+        }
+    }
+}

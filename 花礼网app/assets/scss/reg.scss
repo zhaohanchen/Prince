@@ -1,0 +1,248 @@
+a {
+    text-decoration: none;
+}
+
+@function rem($arg) {
+    @return $arg/108px * 1rem;
+}
+
+body {
+    background-color: #f3f3f6;
+}
+
+.top {
+    position: relative;
+    height: rem(130px);
+    background-color: #f9f9f9;
+    border-bottom: rem(3px) solid #ccc;
+    p {
+        position: absolute;
+        left: rem(490px);
+        line-height: rem(130px);
+        text-align: center;
+        color: #adadad;
+        font-size: rem(52px);
+        font-family: '微软雅黑';
+    }
+    i {
+        position: absolute;
+        left: rem(38px);
+        font-size: rem(94px);
+        line-height: rem(130px);
+        color: #79797b;
+    }
+}
+
+.zhuce {
+    display: flex;
+    background-color: #fff;
+    li {
+        display: flex;
+        justify-content: space-between;
+        width: rem(252px);
+        height: rem(126px);
+        line-height: rem(126px);
+        padding-left: rem(144px);
+        padding-right: rem(144px);
+        i {
+            font-size: rem(52px);
+            color: #ff6427;
+        }
+        h3 {
+            font-size: rem(44px);
+            font-family: '微软雅黑';
+            color: #ff6427;
+        }
+    }
+    .phone {
+        border-bottom: rem(6px) solid #ff6427;
+        i {
+            font-size: rem(52px);
+            color: #ff6427;
+        }
+        h3 {
+            font-size: rem(44px);
+            font-family: '微软雅黑';
+            color: #ff6427;
+        }
+    }
+    .email {
+        i {
+            font-size: rem(52px);
+            color: #adadad;
+        }
+        h3 {
+            font-size: rem(44px);
+            font-family: '微软雅黑';
+            color: #adadad;
+        }
+    }
+}
+
+.kong1 {
+    height: rem(36px);
+    background-color: #f3f3f6;
+    border-top: rem(3px) solid #ccc;
+}
+
+.fangshi {
+    position: relative;
+    width: 100%;
+    .phonereg {
+        position: absolute;
+        width: 100%;
+        .phonenum {
+            height: rem(136px);
+            line-height: rem(136px);
+            border-top: rem(3px) solid #ccc;
+            background-color: #fff;
+            span {
+                margin-left: rem(38px);
+                font-size: rem(44px);
+                color: #555;
+                font-family: '微软雅黑';
+            }
+            input {
+                height: rem(132px);
+                font-size: rem(46px);
+                color: #adadad;
+                font-family: '微软雅黑';
+                outline: none;
+                border: none;
+            }
+        }
+        .yanzhengma1 {
+            display: flex;
+            justify-content: space-between;
+            height: rem(144px);
+            border-top: rem(3px) solid #ccc;
+            border-bottom: rem(3px) solid #ccc;
+            background-color: #fff;
+            .maleft {
+                span {
+                    margin-left: rem(38px);
+                    font-size: rem(44px);
+                    line-height: rem(144px);
+                    color: #555;
+                    font-family: '微软雅黑';
+                }
+                input {
+                    font-size: rem(46px);
+                    height: rem(140px);
+                    color: #adadad;
+                    line-height: rem(144px);
+                    font-family: '微软雅黑';
+                    outline: none;
+                    border: none;
+                }
+            }
+            p {
+                width: rem(260px);
+                height: rem(144px);
+                background-color: #fff;
+                line-height: rem(144px);
+                text-align: center;
+                border-left: rem(3px) solid #ccc;
+                color: #ff6427;
+                font-size: rem(38px);
+                font-family: '微软雅黑';
+            }
+        }
+        .nextstep {
+            margin-top: rem(48px);
+            margin-left: rem(48px);
+            width: rem(984px);
+            height: rem(136px);
+            line-height: rem(136px);
+            text-align: center;
+            background-color: #e94e11;
+            color: #fff;
+            font-size: rem(46px);
+            font-family: '微软雅黑';
+            border-radius: rem(14px);
+        }
+    }
+    .emailreg {
+        position: absolute;
+        display: none;
+        .youxiang {
+            display: flex;
+            background-color: #fff;
+            .left {
+                li {
+                    width: rem(156px);
+                    height: rem(140px);
+                    color: #555;
+                    font-size: rem(44px);
+                    font-family: '微软雅黑';
+                    line-height: rem(140px);
+                    text-align: center;
+                }
+            }
+            .right {
+                li:nth-child(1) {
+                    border-bottom: rem(3px) solid #ccc;
+                }
+                li {
+                    width: rem(924px);
+                    height: rem(138px);
+                    input {
+                        font-size: rem(46px);
+                        color: #adadad;
+                        height: rem(132px);
+                        line-height: rem(136px);
+                        font-family: '微软雅黑';
+                        outline: none;
+                        border: none;
+                    }
+                }
+            }
+        }
+        .yanzhengma2 {
+            display: flex;
+            justify-content: space-between;
+            height: rem(144px);
+            line-height: rem(144px);
+            border-top: rem(3px) solid #ccc;
+            border-bottom: rem(3px) solid #ccc;
+            background-color: #fff;
+            input {
+                margin-left: rem(36px);
+                font-size: rem(46px);
+                color: #adadad;
+                height: rem(140px);
+                font-family: '微软雅黑';
+                outline: none;
+                border: none;
+            }
+            img {
+                margin-top: rem(26px);
+                width: rem(228px);
+                height: rem(92px);
+            }
+            p {
+                width: rem(174px);
+                height: rem(144px);
+                text-align: center;
+                line-height: rem(144px);
+                color: #75add9;
+                font-family: '微软雅黑';
+                font-size: rem(40px);
+                border-left: rem(3px) solid #ccc;
+            }
+        }
+        .zhuceba {
+            margin-top: rem(48px);
+            margin-left: rem(48px);
+            width: rem(984px);
+            height: rem(136px);
+            line-height: rem(136px);
+            text-align: center;
+            background-color: #e94e11;
+            color: #fff;
+            font-size: rem(46px);
+            font-family: '微软雅黑';
+            border-radius: rem(14px);
+        }
+    }
+}

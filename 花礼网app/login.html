@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录页</title>
+    <script src="assets/js/flexble.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/iconfont.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+
+<body>
+    <div class="top">
+        <a href="mine.html"><span>取消</span></a>
+        <p>登录</p>
+    </div>
+    <div class="logintop"><img src="assets/images/logintop.png" alt=""></div>
+    <ul class="denglu">
+        <li class="phone">
+            <i class="iconfont icon-xinfeng"></i>
+            <h3>会员账号登录</h3>
+        </li>
+        <li class="email">
+            <i class="iconfont icon-shouji"></i>
+            <h3>短信快捷登陆</h3>
+        </li>
+    </ul>
+    <div class="kong1"></div>
+    <div class="fangshi">
+        <div class="zhanghaologin cards">
+            <ul class="cardtop">
+                <li>帐号:</li>
+                <li>
+                    <input type="text" value="邮箱/手机号" onfocus="if (value =='邮箱/手机号'){value =''}" onblur="if (value ==''){value='邮箱/手机号'}">
+                </li>
+            </ul>
+            <ul class="cardbottom">
+                <li>密码:</li>
+                <li>
+                    <input type="text" value="请输入密码" onfocus="if (value =='请输入密码'){value =''}" onblur="if (value ==''){value='请输入密码'}">
+                </li>
+            </ul>
+        </div>
+        <div class="fastlogin cards">
+            <ul class="cardtop">
+                <li>手机号:</li>
+                <li>
+                    <input type="text" value="请输入手机号" onfocus="if (value =='请输入手机号'){value =''}" onblur="if (value ==''){value='请输入手机号'}">
+                </li>
+            </ul>
+            <ul class="cardbottom">
+                <li>验证码:</li>
+                <li>
+                    <input type="text" value="请输入验证码" onfocus="if (value =='请输入验证码'){value =''}" onblur="if (value ==''){value='请输入验证码'}">
+                    <p>获取验证码</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="dengluba">登录</div>
+    <div class="underlogin">
+        <a href="reg.html"><h3>快速注册</h3></a>
+        <a href=""><h3>找回密码</h3></a>
+    </div>
+    <div class="down">
+        <ul>
+            <a href="" class="one">
+                <li>
+                    <i class="iconfont icon-weixin"></i>
+                    <h3>微信登录</h3>
+                </li>
+            </a>
+            <a href="">
+                <li class="two">
+                    <i class="iconfont icon-QQ"></i>
+                    <h3>QQ登录</h3>
+                </li>
+            </a>
+            <a href="">
+                <li class="three">
+                    <i class="iconfont icon-zhifu"></i>
+                    <h3>支付宝登录</h3>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/login.js"></script>
+</body>
+
+</html>

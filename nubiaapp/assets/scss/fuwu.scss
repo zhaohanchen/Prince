@@ -1,0 +1,93 @@
+// 将px转换为rem单位，在任何手机端同样适用
+@function rem($arg) {
+    // 你的页面是多少除以多少
+    @return $arg/108px * 1rem;
+}
+
+body {
+    font-size: rem(30px);
+}
+
+
+/*container start*/
+
+.container {
+    padding-bottom: rem(200px);
+    /* 页面头部内容 start*/
+    .header {
+        display: flex;
+        justify-content: center;
+        height: rem(140px);
+        padding-left: rem(48px);
+        padding-right: rem(48px);
+        line-height: rem(140px);
+        font-size: rem(48px);
+        border-bottom: 2px solid #e95453;
+    }
+    /* 页面头部内容 end*/
+    /*fuwu srart*/
+    .fuwu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: rem(243px);
+        line-height: rem(243px);
+        padding-left: rem(46px);
+        padding-right: rem(74px);
+        a {
+            color: #d2d2d2;
+        }
+        .iconfont {
+            font-size: rem(150px);
+        }
+        p {
+            color: #1f1f1f;
+            margin-right: rem(500px);
+            font-family: '微软雅黑';
+        }
+    }
+    /*fuwu end*/
+    /*间距  start*/
+    .jianxi {
+        width: rem(1080px);
+        height: rem(14px);
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        background-color: #f5f5f5;
+    }
+    /*间距  end*/
+    /*维修 start*/
+    /*维修 end*/
+}
+
+
+/*container end*/
+
+
+/* 底部导航 start */
+
+.nav {
+    z-index: 9;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: rem(166px);
+    font-size: rem(26px);
+    text-align: center;
+    background-color: #fff;
+    li {
+        flex: 1;
+        a {
+            display: block;
+            color: #636563;
+        }
+        .iconfont {
+            font-size: rem(92px);
+        }
+    }
+}
+
+
+/* 底部导航 end */

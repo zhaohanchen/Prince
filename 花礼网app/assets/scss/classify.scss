@@ -1,0 +1,256 @@
+a {
+    text-decoration: none;
+}
+
+@function rem($arg) {
+    @return $arg/108px * 1rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 99;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: rem(132px);
+    border-bottom: rem(2px) solid #ccc;
+    background-color: #f3f3f6;
+    form {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: rem(980px);
+        height: rem(80px);
+        border: rem(2px) solid #ccc;
+        border-radius: rem(16px);
+        background-color: #fff;
+        i {
+            font-size: rem(60px);
+            color: #bbb;
+        }
+        .search {
+            i {
+                font-size: rem(44px);
+                color: #bbb;
+            }
+            input {
+                width: rem(734px);
+                height: rem(34px);
+                line-height: 120%;
+                border: none;
+                outline: none;
+                font-size: rem(34px);
+                color: #adadad;
+            }
+        }
+    }
+}
+
+.cards {
+    display: flex;
+    margin-top: rem(134px);
+    .cards-left {
+        position: fixed;
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: rem(236px);
+            height: rem(166px);
+            border-right: rem(4px) solid #ccc;
+            border-top: rem(4px) solid #ccc;
+            background-color: #f3f3f6;
+            font-size: rem(40px);
+            color: #555;
+            font-family: '微软雅黑';
+        }
+        li:nth-child(10) {
+            border-bottom: rem(4px) solid #ccc;
+        }
+    }
+    .cards-right {
+        position: relative;
+        margin-left: rem(241px);
+        .card {
+            position: absolute;
+            display: none;
+        }
+        .card1 {
+            display: block;
+        }
+        .cardtop {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: rem(838px);
+            height: rem(320px);
+            img {
+                width: rem(770px);
+            }
+        }
+        .classify {
+            display: flex;
+            align-items: center;
+            width: rem(838px);
+            height: rem(140px);
+            h1 {
+                margin-left: rem(40px);
+                font-size: rem(42px);
+                color: #adadad;
+                font-family: '微软雅黑';
+            }
+        }
+        .allshops {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: rem(36px);
+            div {
+                width: rem(252px);
+                text-align: center;
+                img {
+                    margin-top: rem(28px);
+                    width: rem(165px);
+                }
+                h3 {
+                    margin-top: rem(20px);
+                    font-size: rem(36px);
+                    color: #555;
+                    font-family: '微软雅黑';
+                }
+            }
+        }
+        .kuai {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: rem(36px);
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: rem(254px);
+                height: rem(123px);
+                border: 1px solid #ccc;
+                p {
+                    width: rem(60px);
+                    height: rem(60px);
+                }
+                h5 {
+                    margin-left: rem(14px);
+                    font-size: rem(36px);
+                    color: #555;
+                    font-family: '微软雅黑';
+                }
+            }
+            .hong {
+                p {
+                    background-color: #f2020d;
+                }
+            }
+            .fen {
+                p {
+                    background-color: #fe94ba;
+                }
+            }
+            .bin {
+                h5 {
+                    margin-left: 0;
+                }
+                p {
+                    background-color: #ffe3c3;
+                }
+            }
+            .huang {
+                p {
+                    background-color: #ffff4f;
+                }
+            }
+            .bai {
+                p {
+                    width: rem(58px);
+                    height: rem(58px);
+                    border: rem(2px) solid #ccc;
+                    background-color: #fff;
+                }
+            }
+            .zi {
+                p {
+                    background-color: #b007ff;
+                }
+            }
+            .lan {
+                p {
+                    background-color: #0000fc;
+                }
+            }
+        }
+    }
+}
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: rem(130px);
+    border-top: rem(2px) solid #ccc;
+    background-color: #f8f8f8;
+    div {
+        h3 {
+            font-size: rem(32px);
+            font-family: '微软雅黑';
+            color: #777;
+        }
+    }
+    .nav-1 {
+        h3 {
+            margin-top: rem(2px);
+        }
+        i {
+            font-size: rem(60px);
+            color: #777;
+        }
+    }
+    .nav-2 {
+        margin-top: rem(10px);
+        h3 {
+            margin-top: rem(10px);
+        }
+        i {
+            margin-left: rem(6px);
+            font-size: rem(44px);
+            color: #ff6427;
+        }
+    }
+    .nav-3 {
+        h3 {}
+        i {
+            font-size: rem(64px);
+            color: #777;
+        }
+    }
+    .nav-4 {
+        h3 {
+            margin-top: rem(10px);
+        }
+        i {
+            margin-left: rem(10px);
+            font-size: rem(56px);
+            color: #777;
+        }
+    }
+    .nav-5 {
+        h3 {
+            margin-top: rem(10px);
+        }
+        i {
+            font-size: rem(56px);
+            color: #777;
+        }
+    }
+}

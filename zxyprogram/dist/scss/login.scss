@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #f5f5f5;
+    font-family: "Microsoft Yahei", "微软雅黑", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+
+/* start 表格*/
+
+.container {
+    width: 850px;
+    height: 393px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: #fff;
+    padding-bottom: 80px;
+    margin-bottom: 40px;
+    .logo {
+        width: 156px;
+        height: 55px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        position: relative;
+        top: 30px;
+        background: url('../images/nubia-logo.png');
+        background-position: 0 -55px;
+    }
+    #login {
+        width: 370px;
+        margin: 0 auto;
+        .navtab {
+            width: 370px;
+            height: 24px;
+            font-size: 18px;
+            color: #333;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+        .cur {
+            color: #e8380d;
+        }
+        .navcon {
+            width: 360px;
+            height: 120px;
+            margin: 0 auto;
+            .reg-id {
+                height: 120px;
+                dl {
+                    position: relative;
+                    line-height: 1.5;
+                    margin-bottom: 20px;
+                    dd {
+                        width: 360px;
+                        height: 50px;
+                        .input-con {
+                            // margin-bottom: 20px;
+                            input {
+                                width: 348px;
+                                height: 48px;
+                                line-height: 50px;
+                                padding-left: 10px;
+                                border: 1px solid #e0e4e7;
+                                vertical-align: middle;
+                                font-size: 12px;
+                            }
+                        }
+                        .Validform_checktip {
+                            line-height: 20px;
+                            height: 20px;
+                            color: #F00;
+                            font-size: 12px;
+                            position: absolute;
+                            top: 13px;
+                            right: -107px;
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+        .btn-login {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: 360px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 20px;
+            background: #e8380d;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .reg-now {
+            margin-top: 10px;
+            text-align: right;
+        }
+        .third-login {
+            margin-top: 20px;
+            span {
+                float: left;
+                line-height: 30px;
+            }
+            .login-rem {
+                float: left;
+                .qq {
+                    display: block;
+                    float: right;
+                    margin-left: 15px;
+                    margin-right: 0px;
+                    width: 28px;
+                    height: 28px;
+                    background: url('../images/third_login.png') no-repeat -1px -1px;
+                    &:hover {
+                        background-position: -1px -30px;
+                    }
+                }
+                .weibo {
+                    @extend .qq;
+                    background: url('../images/third_login.png') no-repeat -30px -1px;
+                    &:hover {
+                        background-position: -30px -30px;
+                    }
+                }
+                .alipay {
+                    @extend .qq;
+                    background: url('../images/third_login.png') no-repeat -88px -1px;
+                    &:hover {
+                        background-position: -88px -30px;
+                    }
+                }
+                .wx {
+                    @extend .qq;
+                    background: url('../images/third_login.png') no-repeat -59px -1px;
+                    &:hover {
+                        background-position: -59px -30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*end 表格*/
+
+
+/*start 脚部*/
+
+.nb-footer {
+    padding: 10px 0 50px 0;
+    .nubia {
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        width: 1000px;
+        color: #ccc;
+        font-size: 12px;
+        .nb-footer-info {
+            a {
+                display: inline-block;
+                margin-right: 20px;
+                color: #ccc;
+                transition: color .3s ease-in-out;
+                &:hover {
+                    color: #333;
+                }
+                img {
+                    border-width: 0px;
+                    border: hidden;
+                    border: none;
+                    vertical-align: middle;
+                    height: 18px;
+                }
+            }
+        }
+    }
+}
+
+
+/*end 脚部*/

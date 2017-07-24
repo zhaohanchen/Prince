@@ -1,0 +1,201 @@
+@charset "UTF-8";
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #f3f3f6; }
+
+.top {
+  position: relative;
+  height: 1.2037rem;
+  background-color: #f9f9f9;
+  border-bottom: 0.02778rem solid #ccc; }
+  .top p {
+    position: absolute;
+    left: 4.53704rem;
+    line-height: 1.2037rem;
+    text-align: center;
+    color: #adadad;
+    font-size: 0.48148rem;
+    font-family: '微软雅黑'; }
+  .top i {
+    position: absolute;
+    left: 0.35185rem;
+    font-size: 0.87037rem;
+    line-height: 1.2037rem;
+    color: #79797b; }
+
+.zhuce {
+  display: flex;
+  background-color: #fff; }
+  .zhuce li {
+    display: flex;
+    justify-content: space-between;
+    width: 2.33333rem;
+    height: 1.16667rem;
+    line-height: 1.16667rem;
+    padding-left: 1.33333rem;
+    padding-right: 1.33333rem; }
+    .zhuce li i {
+      font-size: 0.48148rem;
+      color: #ff6427; }
+    .zhuce li h3 {
+      font-size: 0.40741rem;
+      font-family: '微软雅黑';
+      color: #ff6427; }
+  .zhuce .phone {
+    border-bottom: 0.05556rem solid #ff6427; }
+    .zhuce .phone i {
+      font-size: 0.48148rem;
+      color: #ff6427; }
+    .zhuce .phone h3 {
+      font-size: 0.40741rem;
+      font-family: '微软雅黑';
+      color: #ff6427; }
+  .zhuce .email i {
+    font-size: 0.48148rem;
+    color: #adadad; }
+  .zhuce .email h3 {
+    font-size: 0.40741rem;
+    font-family: '微软雅黑';
+    color: #adadad; }
+
+.kong1 {
+  height: 0.33333rem;
+  background-color: #f3f3f6;
+  border-top: 0.02778rem solid #ccc; }
+
+.fangshi {
+  position: relative;
+  width: 100%; }
+  .fangshi .phonereg {
+    position: absolute;
+    width: 100%; }
+    .fangshi .phonereg .phonenum {
+      height: 1.25926rem;
+      line-height: 1.25926rem;
+      border-top: 0.02778rem solid #ccc;
+      background-color: #fff; }
+      .fangshi .phonereg .phonenum span {
+        margin-left: 0.35185rem;
+        font-size: 0.40741rem;
+        color: #555;
+        font-family: '微软雅黑'; }
+      .fangshi .phonereg .phonenum input {
+        height: 1.22222rem;
+        font-size: 0.42593rem;
+        color: #adadad;
+        font-family: '微软雅黑';
+        outline: none;
+        border: none; }
+    .fangshi .phonereg .yanzhengma1 {
+      display: flex;
+      justify-content: space-between;
+      height: 1.33333rem;
+      border-top: 0.02778rem solid #ccc;
+      border-bottom: 0.02778rem solid #ccc;
+      background-color: #fff; }
+      .fangshi .phonereg .yanzhengma1 .maleft span {
+        margin-left: 0.35185rem;
+        font-size: 0.40741rem;
+        line-height: 1.33333rem;
+        color: #555;
+        font-family: '微软雅黑'; }
+      .fangshi .phonereg .yanzhengma1 .maleft input {
+        font-size: 0.42593rem;
+        height: 1.2963rem;
+        color: #adadad;
+        line-height: 1.33333rem;
+        font-family: '微软雅黑';
+        outline: none;
+        border: none; }
+      .fangshi .phonereg .yanzhengma1 p {
+        width: 2.40741rem;
+        height: 1.33333rem;
+        background-color: #fff;
+        line-height: 1.33333rem;
+        text-align: center;
+        border-left: 0.02778rem solid #ccc;
+        color: #ff6427;
+        font-size: 0.35185rem;
+        font-family: '微软雅黑'; }
+    .fangshi .phonereg .nextstep {
+      margin-top: 0.44444rem;
+      margin-left: 0.44444rem;
+      width: 9.11111rem;
+      height: 1.25926rem;
+      line-height: 1.25926rem;
+      text-align: center;
+      background-color: #e94e11;
+      color: #fff;
+      font-size: 0.42593rem;
+      font-family: '微软雅黑';
+      border-radius: 0.12963rem; }
+  .fangshi .emailreg {
+    position: absolute;
+    display: none; }
+    .fangshi .emailreg .youxiang {
+      display: flex;
+      background-color: #fff; }
+      .fangshi .emailreg .youxiang .left li {
+        width: 1.44444rem;
+        height: 1.2963rem;
+        color: #555;
+        font-size: 0.40741rem;
+        font-family: '微软雅黑';
+        line-height: 1.2963rem;
+        text-align: center; }
+      .fangshi .emailreg .youxiang .right li:nth-child(1) {
+        border-bottom: 0.02778rem solid #ccc; }
+      .fangshi .emailreg .youxiang .right li {
+        width: 8.55556rem;
+        height: 1.27778rem; }
+        .fangshi .emailreg .youxiang .right li input {
+          font-size: 0.42593rem;
+          color: #adadad;
+          height: 1.22222rem;
+          line-height: 1.25926rem;
+          font-family: '微软雅黑';
+          outline: none;
+          border: none; }
+    .fangshi .emailreg .yanzhengma2 {
+      display: flex;
+      justify-content: space-between;
+      height: 1.33333rem;
+      line-height: 1.33333rem;
+      border-top: 0.02778rem solid #ccc;
+      border-bottom: 0.02778rem solid #ccc;
+      background-color: #fff; }
+      .fangshi .emailreg .yanzhengma2 input {
+        margin-left: 0.33333rem;
+        font-size: 0.42593rem;
+        color: #adadad;
+        height: 1.2963rem;
+        font-family: '微软雅黑';
+        outline: none;
+        border: none; }
+      .fangshi .emailreg .yanzhengma2 img {
+        margin-top: 0.24074rem;
+        width: 2.11111rem;
+        height: 0.85185rem; }
+      .fangshi .emailreg .yanzhengma2 p {
+        width: 1.61111rem;
+        height: 1.33333rem;
+        text-align: center;
+        line-height: 1.33333rem;
+        color: #75add9;
+        font-family: '微软雅黑';
+        font-size: 0.37037rem;
+        border-left: 0.02778rem solid #ccc; }
+    .fangshi .emailreg .zhuceba {
+      margin-top: 0.44444rem;
+      margin-left: 0.44444rem;
+      width: 9.11111rem;
+      height: 1.25926rem;
+      line-height: 1.25926rem;
+      text-align: center;
+      background-color: #e94e11;
+      color: #fff;
+      font-size: 0.42593rem;
+      font-family: '微软雅黑';
+      border-radius: 0.12963rem; }

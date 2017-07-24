@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册-nubia 帐号中心</title>
+    <!-- 引入flexible.js，设置页面的font-size的值 -->
+    <script src="assets/js/flexble.js"></script>
+    <!--  引入网站小图标 -->
+    <link rel="shortcut icon" href="http://static.nubia.cn/images/favicon.ico" type="image/x-icon" />
+    <!-- 重置标签样式 -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- scss编译的css文件 -->
+    <link rel="stylesheet" href="assets/css/reg.css">
+    <!-- scss编译的css文件通用样式 -->
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+
+<body>
+    <!-- 上部分 start -->
+    <div class="layout">
+        <form method="post" action="" id="regByPhone">
+            <p class="title">用手机号注册</p>
+            <div class="line"></div>
+            <div class="input_box">
+                <input type="text" name="mobile" autocomplete="off" placeholder="请输入您的手机号码" style="outline:none;">
+            </div>
+            <div class="input_box">
+                <input type="password" name="newPassword" placeholder="6-16个字符(数字、字母、符号至少包含两种)" style="outline:none;">
+            </div>
+        </form>
+    </div>
+    <!-- 上部分 end -->
+    <!-- 图片验证码 start -->
+    <div class="tpyz">
+        <div class="input_box">
+            <input type="text" name="captcha" class="con_inputbox" autocomplete="off" placeholder="请输入图片验证码" style="outline:none;">
+            <a class="getcaptcha" href="">
+                <img src="assets/images/yzm/1.jpg">
+            </a>
+        </div>
+    </div>
+    <!-- 图片验证码 end -->
+    <!-- 短信验证码 start -->
+    <div class="tpyz">
+        <div class="input_box">
+            <input type="text" name="captcha" class="con_inputbox" autocomplete="off" placeholder="请输入手机验证码" style="outline:none;">
+            <a href="" class="foo_btn">发送验证码</a>
+        </div>
+    </div>
+    <!-- 短信验证码 end -->
+    <!-- 隐私协议 start -->
+    <p class="tips-title">注册即表示您同意遵守努比亚帐户的
+        <a href="" target="_blank">用户协议
+        </a> 和
+        <a href="" target="_blank">隐私协议</a>
+    </p>
+    <!-- 隐私协议 end -->
+    <!-- 注册按钮 start -->
+    <div class="btn_area">
+        <input class="sbtn" value="注册" type="submit">
+    </div>
+    <!-- 注册按钮 end -->
+</body>
+
+</html>

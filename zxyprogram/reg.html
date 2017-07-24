@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册——努比亚官方网站</title>
+    <link rel="stylesheet" href="dist/css/reg.css">
+    <link rel="shortcut icon" href="http://static.nubia.cn/images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <!-- start 表格 -->
+    <div class="container">
+        <div class="logo"></div>
+        <form id="login">
+            <div class="navtab">
+                <label for="tab-mobile" class="tab-btn cur" style="margin-right:8px">
+                    用手机号码注册账号
+                </label>
+                |
+                <label for="tab-email" class="tab-btn" style="margin-left:8px">
+                    用电子邮箱注册账号
+                </label>
+            </div>
+            <div class="navcon">
+                <div class="reg-id">
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="text" name="text" placeholder="请输入手机号码" datatype="m" errormsg="手机号码格式错误" datatype="m" nullmsg="手机号不能为空" sucmsg="恭喜，手机号正确">
+                            </div>
+                            <div class="checktip" id="user_name_tag"><span class="Validform_checktip"></span></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="password" value="" name="userpassword" placeholder="密码为6-16个字符（数字、字母、符号至少包含两种）" datatype="*6-15" errormsg="密码范围在6~15位之间！" />
+                            </div>
+                            <div class="checktip" id="user_name_tag"><span class="Validform_checktip"></span></div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="text" name="text" datatype="s" placeholder="请输入验证码（不区分大小写）" errormsg="验证码正确" nullmsg="验证码不能为空" sucmsg="恭喜，验证码正确" style="width:223px;">
+                                <div class="mobile">
+                                    <a href="javascript:;"><img class="yanzhengma" src="dist/images/1.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="checktip" id="user_name_tag"> <span class="Validform_checktip"></span>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <div class="input-con">
+                                <input type="button" value="获取验证码" class="btn-code">
+                                <input type="text" value="" name="number" placeholder="请输入手机收到的验证码" datatype="*4-6" errormsg="验证码范围在6位！" nullmsg="验证码不能为空" sucmsg="恭喜，验证码正确" />
+                            </div>
+                            <div class="checktip"><span class="Validform_checktip"></span></div>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="ttj">
+                <div class="safe">
+                    <div id="theAgreement" style="text-align:left;margin-bottom:10px">
+                        <input type="checkbox" checked="checked" value="1" title="需要同意《用户服务协议》" name="agreement" id="agreement">我已阅读并接受
+                        <a href="/res/html/agreement.html" title="用户协议" target="_blank">用户协议</a>和
+                        <a href="/res/html/privacy.html" title="隐私政策" target="_blank">隐私政策</a>
+                    </div>
+                    <div id="theAgreementAdvice" class="hint clear"></div>
+                </div>
+                <a href="login.html">
+                    <input type="button" value="提交" class="btn-login" style="margin-top: 50px;">
+                </a>
+                <p style="text-align:right;">已有账号，
+                    <a href="login.html" style="color:#e8380d;">直接登录
+                </a>
+                </p>
+            </div>
+        </form>
+    </div>
+    <!-- end 表格 -->
+    <!-- start 脚部 -->
+    <div class="nb-footer">
+        <div class="nubia">
+            <p class="nb-footer-info"> 2012-2017 努比亚 版权所有 <a href="http://www.miibeian.gov.cn/">粤ICP备10006213号-2</a> ICP经营许可证编号：粤B2-20120688
+                <a href="https://cert.ebs.gov.cn/D52B1891-CB9A-4FD0-8BC6-1D5650B567CE" target="_blank" style="margin-right: 5px;margin-left: 3px;"><img src="dist/images/govIcon.png" border="0"></a> 努比亚技术有限公司</p>
+        </div>
+    </div>
+    <!-- end 脚部 -->
+    <script src="dist/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="dist/node_modules/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+    <script src="dist/js/reg.js"></script>
+</body>
+
+</html>

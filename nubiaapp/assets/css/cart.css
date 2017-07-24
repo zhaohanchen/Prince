@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+  font-size: 0.27778rem; }
+
+/*container start*/
+.container {
+  padding-bottom: 1.85185rem;
+  /* 页面头部内容 start*/
+  /* 页面头部内容 end*/ }
+  .container .header {
+    display: flex;
+    justify-content: center;
+    height: 1.2963rem;
+    padding-left: 0.44444rem;
+    padding-right: 0.44444rem;
+    line-height: 1.2963rem;
+    font-size: 0.44444rem;
+    border-bottom: 2px solid #e95453; }
+  .container .kk {
+    width: 10rem;
+    height: 14.2963rem; }
+    .container .kk img {
+      position: absolute;
+      top: 35%;
+      left: 40%; }
+    .container .kk p {
+      line-height: 14.2963rem;
+      text-align: center;
+      color: #737373;
+      font-size: 0.37037rem; }
+
+/*container end*/
+/* 底部导航 start */
+.nav {
+  z-index: 9;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1.53704rem;
+  font-size: 0.24074rem;
+  text-align: center;
+  background-color: #fff; }
+  .nav li {
+    flex: 1; }
+    .nav li a {
+      display: block;
+      color: #636563; }
+    .nav li .iconfont {
+      font-size: 0.85185rem; }
+
+/* 底部导航 end */

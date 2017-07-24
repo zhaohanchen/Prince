@@ -1,0 +1,534 @@
+a {
+    text-decoration: none;
+}
+
+@function rem($arg) {
+    @return $arg/108px * 1rem;
+}
+
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: rem(214px);
+    z-index: 99;
+    overflow: hidden;
+    background-color: #fff;
+    .kong1 {
+        height: rem(70px);
+        border-top: rem(2px) solid #ccc;
+    }
+    .cardhead {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: rem(144px);
+        padding-left: rem(55px);
+        padding-right: rem(55px);
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: rem(168px);
+            height: rem(138px);
+            font-size: rem(38px);
+            font-family: '微软雅黑';
+            color: #555;
+        }
+        .head1 {
+            color: #ff6600;
+            border-bottom: rem(6px) solid #ff6600;
+        }
+    }
+}
+
+.cards {
+    .card1 {
+        .aboutflower {
+            display: flex;
+            justify-content: space-between;
+            margin-top: rem(214px);
+            h3 {
+                font-size: rem(40px);
+                font-family: '微软雅黑';
+            }
+            .huayu {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: rem(537px);
+                height: rem(165px);
+                background-color: #c1a485;
+                h3 {
+                    color: #fff;
+                }
+                span {
+                    position: absolute;
+                    bottom: 0;
+                    width: 0;
+                    height: 0;
+                    border-width: rem(20px);
+                    border-style: solid;
+                    border-color: transparent transparent #fff transparent;
+                }
+            }
+            .gonglue {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: rem(537px);
+                height: rem(165px);
+                background-color: #efefef;
+                h3 {
+                    color: #777;
+                }
+                span {
+                    position: absolute;
+                    bottom: 0;
+                    width: 0;
+                    height: 0;
+                    border-width: rem(20px);
+                    border-style: solid;
+                    border-color: transparent transparent #efefef transparent;
+                }
+            }
+        }
+        .twocards {
+            position: relative;
+            .huayucard {
+                position: absolute;
+                height: rem(1355px);
+                .sousuo {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    align-items: center;
+                    height: rem(180px);
+                    form {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding-left: rem(36px);
+                        padding-right: rem(36px);
+                        width: rem(944px);
+                        height: rem(120px);
+                        background-color: #f3f3f6;
+                        i {
+                            font-size: rem(48px);
+                            color: #bbb;
+                        }
+                        .search {
+                            i {
+                                font-size: rem(44px);
+                                color: #bebebe;
+                            }
+                            input {
+                                width: rem(780px);
+                                height: rem(36px);
+                                line-height: 120%;
+                                border: none;
+                                outline: none;
+                                font-size: rem(36px);
+                                color: #adadad;
+                                background-color: #f3f3f6;
+                            }
+                        }
+                        h2 {
+                            font-size: rem(40px);
+                            color: #555;
+                            font-family: '微软雅黑';
+                        }
+                    }
+                }
+                .hot {
+                    display: flex;
+                    align-items: center;
+                    height: rem(114px);
+                    h3 {
+                        margin-left: rem(32px);
+                        font-size: rem(34px);
+                        color: #555;
+                        font-family: '微软雅黑';
+                    }
+                }
+                .flowernames {
+                    width: rem(1016px);
+                    height: rem(210px);
+                    margin-left: rem(32px);
+                    .name-top {
+                        display: flex;
+                        justify-content: space-between;
+                        height: rem(70px);
+                        margin-top: rem(12px);
+                        a {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: rem(189px);
+                            height: rem(66px);
+                            border: rem(2px) solid #ccc;
+                            border-radius: rem(10px);
+                            li {
+                                font-size: rem(32px);
+                                color: #9b9b9b;
+                                font-family: '微软雅黑';
+                            }
+                        }
+                    }
+                    .name-bottom {
+                        display: flex;
+                        justify-content: space-between;
+                        height: rem(70px);
+                        margin-top: rem(44px);
+                        a {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: rem(189px);
+                            height: rem(66px);
+                            border: rem(2px) solid #ccc;
+                            border-radius: rem(10px);
+                            li {
+                                font-size: rem(32px);
+                                color: #9b9b9b;
+                                font-family: '微软雅黑';
+                            }
+                        }
+                    }
+                }
+                .kong3 {
+                    height: rem(20px);
+                }
+                .pictures {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-left: rem(32px);
+                    width: rem(1016px);
+                    height: rem(840px);
+                    img {
+                        width: rem(500px);
+                    }
+                }
+            }
+            .gongluecard {
+                position: absolute;
+                display: none;
+                div {
+                    height: rem(912px);
+                    border-bottom: rem(2px) solid #efefef;
+                    img {
+                        width: rem(1080px);
+                        height: rem(765px);
+                    }
+                    h5 {
+                        margin-top: rem(27px);
+                        margin-left: rem(34px);
+                        font-size: rem(40px);
+                        color: #555;
+                        font-family: '微软雅黑';
+                    }
+                    p {
+                        margin-top: rem(22px);
+                        margin-left: rem(34px);
+                        font-size: rem(24px);
+                        color: #999;
+                        font-family: '微软雅黑';
+                    }
+                }
+            }
+        }
+    }
+    .card2 {
+        display: none;
+        margin-top: rem(214px);
+        width: 100%;
+        height: rem(1598px);
+        a {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: rem(1598px);
+            div {
+                position: absolute;
+                bottom: 0;
+                left: rem(34px);
+                width: rem(1014px);
+                height: rem(390px);
+                background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1), rgba(255, 0, 0, 0));
+                h2 {
+                    position: absolute;
+                    top: rem(28px);
+                    left: rem(32px);
+                    font-size: rem(34px);
+                    font-family: '微软雅黑';
+                    color: #fe8a3d;
+                }
+                span {
+                    position: absolute;
+                    top: rem(28px);
+                    left: rem(200px);
+                    font-size: rem(34px);
+                    font-family: '微软雅黑';
+                    color: #fe8a3d;
+                }
+                h3 {
+                    position: absolute;
+                    top: rem(32px);
+                    right: rem(32px);
+                    font-size: rem(26px);
+                    font-family: '微软雅黑';
+                    color: #555;
+                }
+                p {
+                    position: absolute;
+                    top: rem(90px);
+                    left: rem(32px);
+                    width: rem(936px);
+                    line-height: 150%;
+                    font-size: rem(34px);
+                    font-family: '微软雅黑';
+                    color: #555;
+                }
+            }
+        }
+        .card2-1 {
+            background-image: url("../images/manhua1.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-900px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-2 {
+            background-image: url("../images/manhua2.jpg");
+            background-size: 180% rem(1598px);
+            background-position: rem(-300px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-3 {
+            background-image: url("../images/manhua3.jpg");
+            background-size: 170% rem(1598px);
+            background-position: rem(-600px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-4 {
+            background-image: url("../images/manhua4.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-200px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-5 {
+            background-image: url("../images/manhua5.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-900px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-6 {
+            background-image: url("../images/manhua6.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-900px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-7 {
+            background-image: url("../images/manhua7.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-900px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-8 {
+            background-image: url("../images/manhua8.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-900px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-9 {
+            background-image: url("../images/manhua9.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-350px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-10 {
+            background-image: url("../images/manhua10.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-500px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-11 {
+            background-image: url("../images/manhua11.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-150px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-12 {
+            background-image: url("../images/manhua12.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-600px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-13 {
+            background-image: url("../images/manhua13.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-900px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-14 {
+            background-image: url("../images/manhua14.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-900px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-15 {
+            background-image: url("../images/manhua15.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-900px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-16 {
+            background-image: url("../images/manhua16.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-900px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-17 {
+            background-image: url("../images/manhua17.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-800px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-18 {
+            background-image: url("../images/manhua18.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-50px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-19 {
+            background-image: url("../images/manhua19.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-50px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-20 {
+            background-image: url("../images/manhua20.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-900px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-21 {
+            background-image: url("../images/manhua21.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-650px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-22 {
+            background-image: url("../images/manhua22.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-250px) 0;
+            background-repeat: no-repeat;
+        }
+        .card2-23 {
+            background-image: url("../images/manhua23.jpg");
+            background-size: 190% rem(1598px);
+            background-position: rem(-700px) 0;
+            background-repeat: no-repeat;
+        }
+    }
+    .card3 {
+        display: none;
+    }
+    .card4 {
+        display: none;
+    }
+    .common {
+        margin-top: rem(214px);
+        div {
+            height: rem(912px);
+            border-bottom: rem(2px) solid #efefef;
+            img {
+                width: rem(1080px);
+                height: rem(765px);
+            }
+            h5 {
+                margin-top: rem(27px);
+                margin-left: rem(34px);
+                font-size: rem(40px);
+                color: #555;
+                font-family: '微软雅黑';
+            }
+            p {
+                margin-top: rem(22px);
+                margin-left: rem(34px);
+                font-size: rem(24px);
+                color: #999;
+                font-family: '微软雅黑';
+            }
+        }
+    }
+}
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: rem(130px);
+    border-top: rem(2px) solid #ccc;
+    background-color: #f8f8f8;
+    div {
+        h3 {
+            font-size: rem(32px);
+            font-family: '微软雅黑';
+            color: #777;
+        }
+    }
+    .nav-1 {
+        h3 {
+            margin-top: rem(2px);
+        }
+        i {
+            font-size: rem(60px);
+            color: #777;
+        }
+    }
+    .nav-2 {
+        margin-top: rem(10px);
+        h3 {
+            margin-top: rem(10px);
+        }
+        i {
+            margin-left: rem(6px);
+            font-size: rem(44px);
+            color: #777;
+        }
+    }
+    .nav-3 {
+        h3 {}
+        i {
+            font-size: rem(64px);
+            color: #ff6427;
+        }
+    }
+    .nav-4 {
+        h3 {
+            margin-top: rem(10px);
+        }
+        i {
+            margin-left: rem(10px);
+            font-size: rem(56px);
+            color: #777;
+        }
+    }
+    .nav-5 {
+        h3 {
+            margin-top: rem(10px);
+        }
+        i {
+            font-size: rem(56px);
+            color: #777;
+        }
+    }
+}

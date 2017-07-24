@@ -1,0 +1,104 @@
+@charset "UTF-8";
+a {
+  text-decoration: none; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.22222rem;
+  border-bottom: 0.01852rem solid #ccc;
+  background-color: #f9f9f9; }
+  .header h1 {
+    font-size: 0.48148rem;
+    color: #555;
+    font-family: '微软雅黑'; }
+
+.section {
+  position: relative;
+  height: 8.94444rem;
+  background: url("../images/cartbg.png") no-repeat center center; }
+  .section a {
+    position: absolute;
+    bottom: 0.27778rem;
+    left: 3.77778rem;
+    display: block;
+    width: 1.12963rem;
+    height: 0.33333rem;
+    padding: 0.27778rem 0.57407rem;
+    border: 0.01852rem solid #ff6600;
+    border-radius: 5%; }
+    .section a span {
+      font-size: 0.33333rem;
+      color: #ff6600;
+      font-family: '微软雅黑'; }
+
+.kong1 {
+  height: 0.22222rem;
+  background-color: #f3f3f6; }
+
+.look {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6.59259rem; }
+  .look div {
+    width: 1.87037rem; }
+    .look div img {
+      width: 1.87037rem; }
+    .look div h4 {
+      margin-top: 0.31481rem;
+      font-size: 0.25926rem;
+      color: #333;
+      font-family: '微软雅黑';
+      text-align: center; }
+  .look h3 {
+    position: absolute;
+    left: 0.47222rem;
+    top: 0.61111rem;
+    font-size: 0.35185rem;
+    font-family: '微软雅黑';
+    color: #333; }
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 1.2037rem;
+  border-top: 0.01852rem solid #ccc;
+  background-color: #f8f8f8; }
+  .nav div h3 {
+    font-size: 0.2963rem;
+    font-family: '微软雅黑';
+    color: #777; }
+  .nav .nav-1 h3 {
+    margin-top: 0.01852rem; }
+  .nav .nav-1 i {
+    font-size: 0.55556rem;
+    color: #777; }
+  .nav .nav-2 {
+    margin-top: 0.09259rem; }
+    .nav .nav-2 h3 {
+      margin-top: 0.09259rem; }
+    .nav .nav-2 i {
+      margin-left: 0.05556rem;
+      font-size: 0.40741rem;
+      color: #777; }
+  .nav .nav-3 i {
+    font-size: 0.59259rem;
+    color: #777; }
+  .nav .nav-4 h3 {
+    margin-top: 0.09259rem; }
+  .nav .nav-4 i {
+    margin-left: 0.09259rem;
+    font-size: 0.51852rem;
+    color: #ff6427; }
+  .nav .nav-5 h3 {
+    margin-top: 0.09259rem; }
+  .nav .nav-5 i {
+    font-size: 0.51852rem;
+    color: #777; }

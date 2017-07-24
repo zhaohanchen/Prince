@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录-nubia 帐号中心</title>
+    <!-- 引入flexible.js，设置页面的font-size的值 -->
+    <script src="assets/js/flexble.js"></script>
+    <!--  引入网站小图标 -->
+    <link rel="shortcut icon" href="http://static.nubia.cn/images/favicon.ico" type="image/x-icon" />
+    <!-- 重置标签样式 -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- scss编译的css文件 -->
+    <link rel="stylesheet" href="assets/css/login.css">
+    <!-- scss编译的css文件通用样式 -->
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- start 表格 -->
+        <div class="layout">
+            <div class="logo">
+                <a href="">
+                    <img src="assets/images/m_logo.png" alt="">
+                </a>
+            </div>
+            <div class="biaodan">
+                <form method="post" action="" id="login">
+                    <input type="hidden" name="form_tag" value="">
+                    <div class="input_box">
+                        <em class="id-icon"></em>
+                        <input type="text" name="username" id="username" value="" placeholder="邮箱/手机号码/用户名" style="outline:none;">
+                    </div>
+                    <div class="input_box">
+                        <em class="pwd-icon"></em>
+                        <input type="password" name="password" id="userpwd" placeholder="密码" style="outline:none;">
+                    </div>
+                    <span class="sjdl">
+                    <a href="">手机验证码登录</a>
+                    </span>
+                    <div class="btn-reg">
+                        <a href="index.html">
+                            <input class="sbtn" value="立即登录" type="button" style="border:none">
+                        </a>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="divider"><i>其他方式登录</i></div>
+                <div class="third-login">
+                    <label class="login-rem">
+                        <a href="" class="qq"></a>
+                        <a href="" class="weibo"></a>
+                        <a href="" class="alipay"></a>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- end 表格 -->
+        <!-- 底部start -->
+        <div class="btn-bottom">
+            <a href="reg.html">立即注册</a>
+            <span style="color:#ddd">|</span>
+            <a href="" class="fs2">忘记密码?</a>
+        </div>
+        <!-- 底部 end -->
+    </div>
+</body>
+
+</html>

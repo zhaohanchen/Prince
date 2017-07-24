@@ -1,0 +1,151 @@
+// 将px转换为rem单位，在任何手机端同样适用
+@function rem($arg) {
+    // 你的页面是多少除以多少
+    @return $arg/108px * 1rem;
+}
+
+body {
+    font-size: rem(30px);
+}
+
+
+/*container start*/
+
+.container {
+    padding-bottom: rem(200px);
+    /* 页面头部内容 start*/
+    .header {
+        display: flex;
+        justify-content: center;
+        height: rem(140px);
+        padding-left: rem(48px);
+        padding-right: rem(48px);
+        line-height: rem(140px);
+        font-size: rem(48px);
+        border-bottom: 2px solid #e95453;
+    }
+    .sousuo {
+        display: flex;
+        width: rem(1080px);
+        height: rem(140px);
+        background-color: #f5f5f5;
+        input {
+            display: flex;
+            justify-content: center;
+            width: rem(980px);
+            height: rem(90px);
+            line-height: rem(90px);
+            border: 1px solid #fff;
+            margin-top: rem(25px);
+            margin-left: rem(48px);
+            margin-right: rem(48px);
+            border-bottom-left-radius: rem(50px);
+            border-bottom-right-radius: rem(50px);
+            border-top-left-radius: rem(50px);
+            border-top-right-radius: rem(50px);
+            text-align: center;
+            font-size: rem(32px);
+        }
+    }
+    /* 页面头部内容 end*/
+    /*手机 start*/
+    .category {
+        width: rem(1080px);
+        height: rem(1665px);
+        a {
+            .telephone {
+                width: rem(990px);
+                height: rem(150px);
+                padding-left: rem(90px);
+                line-height: rem(150px);
+                border-bottom: 1px solid #d9d9d9;
+                color: #4f4f4f;
+                font-size: rem(60px);
+            }
+        }
+        ul {
+            width: 90%;
+            margin: 0 auto;
+            a {
+                display: block;
+                outline: 0;
+                li {
+                    width: 25%;
+                    float: left;
+                    height: rem(432px);
+                    margin-top: rem(72px);
+                    vertical-align: rem(432px);
+                    img {
+                        display: block;
+                        width: rem(220px);
+                        height: rem(220px);
+                        margin-left: rem(6px);
+                        margin-right: rem(6px);
+                    }
+                    p {
+                        display: block;
+                        width: rem(232px);
+                        height: rem(48px);
+                        margin-top: rem(45px);
+                        text-align: center;
+                        color: #4f4f4f;
+                    }
+                }
+            }
+        }
+    }
+    /*手机 end*/
+    /*间隙 start*/
+    .list-jx {
+        clear: both;
+        height: rem(9px);
+        background-color: #eeeeee;
+        border-bottom: 1px solid #d9d9d9;
+        border-top: 1px solid #d9d9d9;
+    }
+    /*间隙 end*/
+    /*配件 start*/
+    .peijian {
+        width: rem(360px*3);
+        height: rem(387px*3);
+    }
+    /*配件 end*/
+    /*周边产品 start*/
+    .zbcp {
+        width: rem(360px*3);
+        height: rem(387px*3);
+    }
+    /*周边产品 end*/
+}
+
+
+/*container end*/
+
+
+/* 底部导航 start */
+
+.nav {
+    z-index: 9;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: rem(166px);
+    font-size: rem(26px);
+    text-align: center;
+    background-color: #fff;
+    li {
+        flex: 1;
+        a {
+            display: block;
+            color: #636563;
+        }
+        .iconfont {
+            font-size: rem(92px);
+        }
+    }
+}
+
+
+/* 底部导航 end */

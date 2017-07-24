@@ -1,0 +1,118 @@
+@charset "UTF-8";
+body {
+  font-size: 0.27778rem; }
+
+/*container start*/
+.container {
+  padding-bottom: 1.85185rem;
+  /* 页面头部内容 start*/
+  /* 页面头部内容 end*/
+  /*手机 start*/
+  /*手机 end*/
+  /*间隙 start*/
+  /*间隙 end*/
+  /*配件 start*/
+  /*配件 end*/
+  /*周边产品 start*/
+  /*周边产品 end*/ }
+  .container .header {
+    display: flex;
+    justify-content: center;
+    height: 1.2963rem;
+    padding-left: 0.44444rem;
+    padding-right: 0.44444rem;
+    line-height: 1.2963rem;
+    font-size: 0.44444rem;
+    border-bottom: 2px solid #e95453; }
+  .container .sousuo {
+    display: flex;
+    width: 10rem;
+    height: 1.2963rem;
+    background-color: #f5f5f5; }
+    .container .sousuo input {
+      display: flex;
+      justify-content: center;
+      width: 9.07407rem;
+      height: 0.83333rem;
+      line-height: 0.83333rem;
+      border: 1px solid #fff;
+      margin-top: 0.23148rem;
+      margin-left: 0.44444rem;
+      margin-right: 0.44444rem;
+      border-bottom-left-radius: 0.46296rem;
+      border-bottom-right-radius: 0.46296rem;
+      border-top-left-radius: 0.46296rem;
+      border-top-right-radius: 0.46296rem;
+      text-align: center;
+      font-size: 0.2963rem; }
+  .container .category {
+    width: 10rem;
+    height: 15.41667rem; }
+    .container .category a .telephone {
+      width: 9.16667rem;
+      height: 1.38889rem;
+      padding-left: 0.83333rem;
+      line-height: 1.38889rem;
+      border-bottom: 1px solid #d9d9d9;
+      color: #4f4f4f;
+      font-size: 0.55556rem; }
+    .container .category ul {
+      width: 90%;
+      margin: 0 auto; }
+      .container .category ul a {
+        display: block;
+        outline: 0; }
+        .container .category ul a li {
+          width: 25%;
+          float: left;
+          height: 4rem;
+          margin-top: 0.66667rem;
+          vertical-align: 4rem; }
+          .container .category ul a li img {
+            display: block;
+            width: 2.03704rem;
+            height: 2.03704rem;
+            margin-left: 0.05556rem;
+            margin-right: 0.05556rem; }
+          .container .category ul a li p {
+            display: block;
+            width: 2.14815rem;
+            height: 0.44444rem;
+            margin-top: 0.41667rem;
+            text-align: center;
+            color: #4f4f4f; }
+  .container .list-jx {
+    clear: both;
+    height: 0.08333rem;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9; }
+  .container .peijian {
+    width: 10rem;
+    height: 10.75rem; }
+  .container .zbcp {
+    width: 10rem;
+    height: 10.75rem; }
+
+/*container end*/
+/* 底部导航 start */
+.nav {
+  z-index: 9;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1.53704rem;
+  font-size: 0.24074rem;
+  text-align: center;
+  background-color: #fff; }
+  .nav li {
+    flex: 1; }
+    .nav li a {
+      display: block;
+      color: #636563; }
+    .nav li .iconfont {
+      font-size: 0.85185rem; }
+
+/* 底部导航 end */

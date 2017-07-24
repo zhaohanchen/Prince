@@ -1,0 +1,639 @@
+@charset "UTF-8";
+/*通用选择器*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+footer .section .wtb .weibo span, footer .section .wtb .weixin span, footer .section .wtb .livechat span {
+  display: block;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Gotham', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5222;
+  color: #414143;
+  font-weight: 300;
+}
+
+/*start 头部样式*/
+header {
+  background: #282828;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 65px;
+  min-height: 66px;
+  transition: background 0.2s linear, height 0.2s ease-in;
+  width: 100%;
+  height: 66px;
+}
+header .main-header {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  width: 1140px;
+  height: 67px;
+}
+header .main-header .row {
+  margin-right: -15px;
+  margin-left: -15px;
+  height: 67px;
+  position: relative;
+}
+header .main-header .row .logo {
+  position: relative;
+  display: block;
+  z-index: 99;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left;
+  width: 165px;
+  height: 56px;
+}
+header .main-header .row .logo img {
+  margin-top: 6px;
+  height: 50px;
+  width: 140px;
+}
+header .main-header .row nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 67px;
+}
+header .main-header .row nav .list {
+  float: left;
+  width: 600px;
+  margin-left: 320px;
+  height: 67px;
+}
+header .main-header .row nav .list .show {
+  padding: 18px 23px 18px 23px;
+  line-height: 30px;
+  float: left;
+  margin: 0 auto;
+}
+header .main-header .row nav .list .show a {
+  color: #fff;
+}
+header .main-header .row nav .list .show a:hover {
+  color: #555;
+}
+header .main-header .row nav .car {
+  float: right;
+  width: 105px;
+  height: 30px;
+  text-align: center;
+  padding: 18px 5px 18px 10px;
+  line-height: 30px;
+  background-color: #f25c4a;
+}
+header .main-header .row nav .car a {
+  color: #fff;
+}
+header .main-header .row nav .car a span {
+  position: absolute;
+  top: 22px;
+  right: 10px;
+  display: block;
+  width: 21px;
+  height: 20px;
+}
+
+.denglu {
+  float: right;
+  width: 21px;
+  height: 20px;
+  padding: 23px 5px 18px 5px;
+}
+
+/*start 列表页*/
+/*start手机*/
+.phone {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  left: -90px;
+  top: 65px;
+  background: rgba(49, 49, 49, 0.95);
+  width: 1349px;
+  height: 240px;
+}
+.phone .p-list {
+  position: relative;
+  width: 1170px;
+  height: 240px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.phone .p-list .leftjian {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 240px;
+  width: 33px;
+}
+.phone .p-list .leftjian span {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 240px;
+}
+.phone .p-list .rightjian {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  height: 240px;
+  width: 33px;
+}
+.phone .p-list .rightjian span {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 240px;
+}
+.phone .p-list .p-show {
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  text-align: left;
+  overflow: hidden;
+  width: 1000%;
+  height: 188px;
+}
+.phone .p-list .p-show .p-dist {
+  text-align: center;
+  float: left;
+  width: 195px;
+  height: 165px;
+}
+.phone .p-list .p-show .p-dist a {
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.phone .p-list .p-show .p-dist a img {
+  width: auto !important;
+  height: 120px;
+}
+.phone .p-list .p-show .p-dist a span {
+  display: block;
+}
+
+/*end 手机*/
+/*start 配件*/
+.peijian {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  left: -90px;
+  top: 65px;
+  background: rgba(49, 49, 49, 0.95);
+  width: 1349px;
+  height: 240px;
+}
+.peijian .p-list {
+  position: relative;
+  width: 1170px;
+  height: 240px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.peijian .p-list .leftjian {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 240px;
+  width: 33px;
+}
+.peijian .p-list .leftjian span {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 240px;
+}
+.peijian .p-list .rightjian {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  height: 240px;
+  width: 33px;
+}
+.peijian .p-list .rightjian span {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 240px;
+}
+.peijian .p-list .p-show {
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  text-align: left;
+  overflow: hidden;
+  width: 1000%;
+  height: 188px;
+}
+.peijian .p-list .p-show .p-dist {
+  text-align: center;
+  margin-top: 20px;
+  float: left;
+  width: 195px;
+  height: 145px;
+}
+.peijian .p-list .p-show .p-dist a {
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.peijian .p-list .p-show .p-dist a img {
+  width: 56px;
+  height: 55px;
+}
+.peijian .p-list .p-show .p-dist a span {
+  display: block;
+  font-size: 13px;
+  margin-top: 15px;
+  height: 30px;
+}
+
+/*end 配件*/
+/*start 社区*/
+.shequ {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  left: -90px;
+  top: 65px;
+  background: rgba(49, 49, 49, 0.95);
+  width: 1349px;
+  height: 240px;
+}
+.shequ .p-list {
+  position: relative;
+  width: 1170px;
+  height: 240px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.shequ .p-list .p-show {
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  text-align: left;
+  overflow: hidden;
+  width: 1000%;
+  height: 188px;
+}
+.shequ .p-list .p-show .p-yun {
+  text-align: center;
+  float: left;
+  width: 195px;
+  height: 145px;
+}
+.shequ .p-list .p-show .p-yun a {
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.shequ .p-list .p-show .p-yun a img {
+  width: auto !important;
+  height: 75px;
+}
+.shequ .p-list .p-show .p-yun a span {
+  display: block;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+/*end 社区*/
+/*end 列表页*/
+/*end 头部样式*/
+/*start 中间部分*/
+.container {
+  width: 1200px;
+  height: 658px;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.container .nav {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.container .nav a:hover {
+  color: #000;
+}
+.container .sidenav {
+  width: 200px;
+  float: left;
+}
+.container .sidenav ul {
+  margin-top: 19px;
+  width: 200px;
+  height: 601px;
+}
+.container .sidenav ul li {
+  line-height: 35px;
+  font-size: 15px;
+  color: #464646;
+  cursor: pointer;
+  background-color: #fff;
+}
+.container .sidenav ul li .memb {
+  height: 35px;
+  padding-left: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #fafafa;
+  cursor: default;
+}
+.container .sidenav ul li .memb-dd {
+  width: 170px;
+  height: 70px;
+  margin-top: 2px;
+  margin-left: 30px;
+}
+.container .sidenav ul li .memb-dd a:hover {
+  color: #000;
+}
+.container .sidenav ul li .gr {
+  height: 315px;
+}
+.container .sidenav ul li .sh {
+  height: 105px;
+}
+.container .con {
+  float: left;
+  padding: 18px 0;
+  line-height: 24px;
+  text-align: left;
+  margin-left: 30px;
+  width: 930px;
+}
+.container .con .address {
+  width: 100%;
+  overflow: hidden;
+}
+.container .con .address .hd {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  color: #808184;
+  font-size: 14px;
+  padding-left: 15px;
+  border-bottom: 1px solid #e2e3e5;
+  background: #fafafa;
+}
+.container .con .address .hd h2 {
+  color: #999;
+  font-size: inherit;
+  cursor: default;
+}
+.container .con .address .hd .riqi {
+  float: right;
+  right: 15px;
+  position: relative;
+  height: 35px;
+  line-height: 35px;
+  border: none;
+  background-color: #fafafa;
+}
+.container .con .address .clearfix a:hover {
+  color: #000;
+}
+.container .con .orders {
+  padding-top: 10px;
+}
+.container .con .orders .orders-table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: transparent;
+}
+.container .con .orders .orders-table tbody {
+  width: 929px;
+  height: 120px;
+}
+.container .con .orders .orders-table tbody tr {
+  width: 929px;
+  height: 40px;
+}
+.container .con .orders .orders-table tbody tr th {
+  height: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  background: #f7f9f9;
+  color: #666;
+}
+.container .con .orders .orders-table tbody tr td {
+  height: 80px;
+  text-align: center;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+.container .con .orders .pagelist {
+  float: right;
+  display: inline;
+  margin: 5px 0 0 0;
+}
+.container .con .orders .pagelist ul {
+  line-height: 20px;
+  overflow: hidden;
+}
+.container .con .orders .pagelist ul li {
+  float: left;
+  display: inline;
+  margin: 0 2px;
+  border-radius: 5px;
+}
+.container .con .orders .pagelist ul .curr-page {
+  padding: 0 8px;
+  height: 20px;
+  text-align: center;
+  color: #fff;
+  line-height: 20px;
+  background: #e8380d;
+}
+
+/*end 中间部分*/
+/* start 简介部分*/
+.bg-yanse {
+  height: 362px;
+  background-color: #efeeeb;
+}
+.bg-yanse .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.bg-yanse .container .bottom-menu-large {
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+.bg-yanse .container .bottom-menu-large .c-row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.bg-yanse .container .bottom-menu-large .c-row .col-sm-2 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+}
+.bg-yanse .container .bottom-menu-large .c-row .col-sm-2 .title {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.bg-yanse .container .bottom-menu-large .c-row .col-sm-2 .bottom-links {
+  width: 165px;
+  height: 154px;
+}
+.bg-yanse .container .bottom-menu-large .c-row .col-sm-2 .bottom-links li {
+  float: none;
+  font-size: 12px;
+  line-height: 22px;
+  margin-right: 0;
+}
+.bg-yanse .container .bottom-menu-large .c-row .col-sm-2 .bottom-links li a:hover {
+  color: #e95f46;
+}
+
+/* end 简介部分*/
+/* start 尾部*/
+footer {
+  border-top: none;
+  text-align: center;
+  color: #555;
+  font-size: 11px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 1349px;
+  height: 208px;
+}
+footer .section {
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
+}
+footer .section .lolog img {
+  width: 105px;
+  height: 59.53px;
+  vertical-align: middle;
+}
+footer .section .wtb {
+  position: absolute;
+  left: 500px;
+  height: 48px;
+  margin: 0 auto;
+  text-align: center;
+}
+footer .section .wtb .weibo, footer .section .wtb .weixin, footer .section .wtb .livechat {
+  float: left;
+}
+footer .section .wtb .weibo span, footer .section .wtb .weixin span, footer .section .wtb .livechat span {
+  margin-left: 16px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  background-image: url("../../dist/images/nubia-syb-all.png");
+  background-position: -125.5px 2px;
+}
+footer .section .wtb .weibo span:hover, footer .section .wtb .weixin span:hover, footer .section .wtb .livechat span:hover {
+  background-position: -125.5px -28.5px;
+}
+footer .section .wtb .weixin span {
+  background-position: -154.5px 2px;
+}
+footer .section .wtb .weixin span:hover {
+  background-position: -154.5px -28.5px;
+}
+footer .section .wtb .livechat span {
+  background-position: -214.5px 2px;
+}
+footer .section .wtb .livechat span:hover {
+  background-position: -214.5px -28.5px;
+}
+footer .section .foot-nav {
+  position: absolute;
+  top: 100px;
+  left: 360px;
+  padding-top: 10px;
+  height: 90px;
+  margin: 0 auto;
+}
+footer .section .foot-nav small a {
+  color: #555;
+}
+footer .section .foot-nav small a:hover {
+  color: #e95f46;
+}
+footer .section .foot-nav a {
+  color: #e95f46;
+  margin-right: 5px;
+}
+footer .section .foot-nav .group {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+footer .section .foot-nav .group button {
+  position: relative;
+  float: left;
+  width: 91px;
+  height: 22px;
+  padding: 4px 10px;
+  font-size: 11px;
+  line-height: 1;
+  color: #888;
+  border: 1px solid transparent;
+  background-color: #E9E8E6;
+  border-radius: 50px;
+}
+footer .section .foot-nav .group button span {
+  width: 16px;
+  height: 11px;
+  background-image: url("../../dist/images/spritesheet.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-bottom: -2px;
+  border-radius: 4px;
+  background-position: -2px -692px;
+}
+
+/* end  尾部*/
+
+/*# sourceMappingURL=dingdan.css.map */

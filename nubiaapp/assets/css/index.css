@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/*container start*/
+.container {
+  padding-bottom: 1.85185rem;
+  /* 页面头部内容 start*/
+  /* 页面头部内容 end*/
+  /*轮播图 start*/
+  /*轮播图 end*/
+  /*粉丝晒单 start*/
+  /*粉丝晒单 end*/
+  /*热销机型 start*/
+  /*精选配件 start*/
+  /*精选配件 end*/
+  /*资讯测评 start*/
+  /*资讯测评 end*/ }
+  .container .header {
+    display: flex;
+    justify-content: center;
+    height: 1.2963rem;
+    padding-left: 0.44444rem;
+    padding-right: 0.44444rem;
+    line-height: 1.2963rem;
+    font-size: 0.44444rem;
+    border-bottom: 2px solid #e95453; }
+  .container .sousuo {
+    display: flex;
+    width: 10rem;
+    height: 1.2963rem;
+    background-color: #f5f5f5; }
+    .container .sousuo input {
+      display: flex;
+      justify-content: center;
+      width: 9.07407rem;
+      height: 0.83333rem;
+      line-height: 0.83333rem;
+      border: 1px solid #fff;
+      margin-top: 0.23148rem;
+      margin-left: 0.44444rem;
+      margin-right: 0.44444rem;
+      border-bottom-left-radius: 0.46296rem;
+      border-bottom-right-radius: 0.46296rem;
+      border-top-left-radius: 0.46296rem;
+      border-top-right-radius: 0.46296rem;
+      text-align: center;
+      font-size: 0.2963rem; }
+  .container .swiper-container {
+    width: 100%;
+    height: 13.75rem; }
+    .container .swiper-container a {
+      display: block; }
+      .container .swiper-container a img {
+        width: 10rem;
+        height: 13.75rem; }
+  .container .card {
+    display: flex;
+    width: 10rem;
+    height: 6.2963rem;
+    overflow: hidden;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff; }
+    .container .card .card-left {
+      width: 50%;
+      height: 6.2963rem; }
+      .container .card .card-left img {
+        width: 99%;
+        height: 6.2963rem; }
+    .container .card .rows {
+      width: 50%;
+      height: 6.2963rem; }
+      .container .card .rows .row1 {
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        border-left: 0 none;
+        width: 100%;
+        height: 3.14815rem; }
+        .container .card .rows .row1 img {
+          width: 99%;
+          height: 3.14815rem; }
+  .container .new-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+    .container .new-list .head {
+      width: 8.66667rem;
+      height: 1.44444rem;
+      text-align: left;
+      padding-left: 0.66667rem;
+      padding-right: 0.66667rem;
+      background: #fff;
+      border-bottom: none; }
+      .container .new-list .head span {
+        color: #333;
+        line-height: 1.44444rem;
+        font-size: 0.55556rem; }
+    .container .new-list .photobar {
+      width: 10rem;
+      height: 6.80556rem; }
+      .container .new-list .photobar img {
+        width: 100%;
+        height: 100%; }
+    .container .new-list .list-cell {
+      display: flex;
+      flex-direction: column;
+      width: 10rem;
+      height: 26.5rem; }
+      .container .new-list .list-cell .crow {
+        width: 10rem;
+        height: 8.83333rem;
+        display: flex;
+        justify-content: space-between; }
+        .container .new-list .list-cell .crow .clee {
+          border-right: 2px solid #fff;
+          border-bottom: 2px solid #fff; }
+        .container .new-list .list-cell .crow .cell {
+          position: relative;
+          width: 4.94444rem;
+          height: 8.77778rem;
+          background-color: #f4f3ef; }
+          .container .new-list .list-cell .crow .cell .dayuan {
+            position: absolute;
+            top: 0.19444rem;
+            left: 0.11111rem;
+            width: 1.25rem;
+            height: 1.25rem;
+            border-radius: 50%;
+            background-color: #f35c49; }
+            .container .new-list .list-cell .crow .cell .dayuan span {
+              display: inline-block;
+              color: #fff;
+              width: 1.25rem;
+              padding: 0;
+              text-align: center;
+              z-index: 5;
+              line-height: 1.25rem; }
+          .container .new-list .list-cell .crow .cell .xyuan {
+            position: absolute;
+            top: 1.34259rem;
+            left: 1.11111rem;
+            width: 0.27778rem;
+            height: 0.27778rem;
+            border-radius: 50%;
+            background-color: #f35c49; }
+          .container .new-list .list-cell .crow .cell a {
+            display: block;
+            padding-top: 0.66667rem;
+            padding-bottom: 1.66667rem; }
+            .container .new-list .list-cell .crow .cell a .imgurl {
+              overflow: hidden;
+              width: 4.94444rem;
+              height: 5rem;
+              padding-top: 0.16667rem;
+              padding-bottom: 0.16667rem; }
+              .container .new-list .list-cell .crow .cell a .imgurl img {
+                max-height: 100%;
+                margin: 0 auto;
+                vertical-align: middle; }
+            .container .new-list .list-cell .crow .cell a .cell-text {
+              text-align: center;
+              width: 4.94444rem;
+              height: 1.11111rem; }
+              .container .new-list .list-cell .crow .cell a .cell-text span {
+                color: #000;
+                font-size: 0.38889rem; }
+              .container .new-list .list-cell .crow .cell a .cell-text .phone-tip {
+                display: block;
+                text-align: center;
+                line-height: 0.55556rem; }
+            .container .new-list .list-cell .crow .cell a .phone-price {
+              position: absolute;
+              bottom: 0.66667rem;
+              width: 4.94444rem;
+              height: 0.61111rem;
+              color: #ef4f3d;
+              text-align: center; }
+              .container .new-list .list-cell .crow .cell a .phone-price span {
+                font-weight: bold;
+                font-size: 0.44444rem; }
+  .container .col-more {
+    width: 10rem;
+    height: 1.66667rem;
+    background-color: #f4f3ef; }
+    .container .col-more a {
+      display: block;
+      padding-top: 0.55556rem;
+      padding-bottom: 0.55556rem;
+      text-align: center; }
+      .container .col-more a span {
+        color: #f35b4e;
+        height: 0.58333rem;
+        font-size: 0.44444rem; }
+  .container .jingxuan {
+    width: 10rem;
+    height: 5.41667rem; }
+    .container .jingxuan img {
+      width: 10rem;
+      height: 5.41667rem; }
+  .container .zixun, .container .zixun a, .container .zixun a img {
+    width: 10rem;
+    height: 6.80556rem; }
+    .container .zixun a, .container .zixun a img a {
+      display: block; }
+
+/*热销机型 end*/
+/*container end*/
+/* 底部导航 start */
+.nav {
+  z-index: 9;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 1.53704rem;
+  font-size: 0.24074rem;
+  text-align: center;
+  background-color: #fff; }
+  .nav li {
+    flex: 1; }
+    .nav li a {
+      display: block;
+      color: #636563; }
+    .nav li .iconfont {
+      font-size: 0.85185rem; }
+
+/* 底部导航 end */

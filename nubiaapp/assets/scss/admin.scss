@@ -1,0 +1,146 @@
+// 将px转换为rem单位，在任何手机端同样适用
+@function rem($arg) {
+    // 你的页面是多少除以多少
+    @return $arg/108px * 1rem;
+}
+
+body {
+    font-size: rem(30px);
+}
+
+
+/*container start*/
+
+.container {
+    padding-bottom: rem(200px);
+    /* 页面头部内容 start*/
+    .header {
+        display: flex;
+        justify-content: center;
+        height: rem(140px);
+        padding-left: rem(48px);
+        padding-right: rem(48px);
+        line-height: rem(140px);
+        font-size: rem(48px);
+        border-bottom: 2px solid #e95453;
+        span {
+            position: absolute;
+            top: rem(20px);
+            right: rem(48px);
+            width: rem(109px);
+            height: rem(109px);
+            background-image: url('../images/信封.png');
+        }
+    }
+    /* 页面头部内容 end*/
+    /* sup start*/
+    .sup {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: rem(1080px);
+        height: rem(564px);
+        background-color: #fe4e4c;
+        a {
+            color: #fff;
+        }
+        .zhtb {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: rem(184px);
+            height: rem(184px);
+            border-radius: 50%;
+            background-color: #ff605f;
+            span {
+                display: block;
+                width: rem(74px);
+                height: rem(68px);
+                background-image: url('../images/账户.png');
+                background-size: rem( 74px) rem(68px);
+            }
+        }
+        .btn-login {
+            width: rem(452px);
+            height: rem(108px);
+            line-height: rem(108px);
+            border: 1px solid #fff;
+            margin-top: rem(70px);
+            margin-left: rem(48px);
+            margin-right: rem(48px);
+            border-bottom-left-radius: rem(50px);
+            border-bottom-right-radius: rem(50px);
+            border-top-left-radius: rem(50px);
+            border-top-right-radius: rem(50px);
+            text-align: center;
+            font-size: rem(32px);
+            color: #fff;
+            background: #ff605f;
+        }
+    }
+    /* sup end*/
+    /*待付款 start*/
+    .daifu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: rem(120px);
+        padding-right: rem(120px);
+        height: rem(144px);
+        background-color: #f44b49;
+        .fukuan {
+            color: #fff;
+            font-size: rem(40px);
+        }
+    }
+    /*待付款 end*/
+    .list {
+        display: flex;
+        height: rem(148px);
+        justify-contenshouht: space-between;
+        align-items: center;
+        border-bottom: 1px solid #e4e4e4;
+        padding-left: rem(52px);
+        padding-right: rem(74px);
+        h3 {
+            color: #262626;
+        }
+        img {
+            width: rem(38px);
+            height: rem(38px);
+        }
+    }
+}
+
+
+/*container end*/
+
+
+/* 底部导航 start */
+
+.nav {
+    z-index: 9;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: rem(166px);
+    font-size: rem(26px);
+    text-align: center;
+    background-color: #fff;
+    li {
+        flex: 1;
+        a {
+            display: block;
+            color: #636563;
+        }
+        .iconfont {
+            font-size: rem(92px);
+        }
+    }
+}
+
+
+/* 底部导航 end */

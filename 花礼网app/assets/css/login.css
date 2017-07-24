@@ -1,0 +1,242 @@
+@charset "UTF-8";
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #f3f3f6; }
+
+.top {
+  position: relative;
+  height: 1.2037rem;
+  background-color: #f9f9f9; }
+  .top p {
+    position: absolute;
+    left: 4.53704rem;
+    line-height: 1.2037rem;
+    text-align: center;
+    color: #555;
+    font-size: 0.46296rem;
+    font-family: '微软雅黑'; }
+  .top span {
+    position: absolute;
+    left: 0.35185rem;
+    font-size: 0.42593rem;
+    line-height: 1.2037rem;
+    color: #adadad;
+    font-family: '微软雅黑'; }
+
+.logintop {
+  width: 100%;
+  height: 3.42593rem; }
+  .logintop img {
+    width: 10rem;
+    height: 3.42593rem; }
+
+.denglu {
+  display: flex;
+  border-top: 0.02778rem solid #ccc;
+  background-color: #fff; }
+  .denglu li {
+    display: flex;
+    justify-content: space-around;
+    width: 3.44444rem;
+    height: 1.16667rem;
+    line-height: 1.16667rem;
+    padding-left: 0.77778rem;
+    padding-right: 0.77778rem; }
+    .denglu li i {
+      font-size: 0.48148rem;
+      color: #ff6427; }
+    .denglu li h3 {
+      font-size: 0.40741rem;
+      font-family: '微软雅黑';
+      color: #ff6427; }
+  .denglu .phone {
+    border-bottom: 0.05556rem solid #ff6427; }
+    .denglu .phone i {
+      font-size: 0.48148rem;
+      color: #ff6427; }
+    .denglu .phone h3 {
+      font-size: 0.40741rem;
+      font-family: '微软雅黑';
+      color: #ff6427; }
+  .denglu .email i {
+    font-size: 0.48148rem;
+    color: #adadad; }
+  .denglu .email h3 {
+    font-size: 0.40741rem;
+    font-family: '微软雅黑';
+    color: #adadad; }
+
+.kong1 {
+  height: 0.33333rem;
+  background-color: #f3f3f6;
+  border-bottom: 0.02778rem solid #ccc; }
+
+.fangshi {
+  position: relative;
+  height: 2.55556rem;
+  border-bottom: 0.02778rem solid #ccc; }
+  .fangshi .zhanghaologin {
+    position: absolute;
+    background-color: #fff; }
+    .fangshi .zhanghaologin .cardtop {
+      display: flex;
+      height: 1.25926rem;
+      line-height: 1.25926rem; }
+      .fangshi .zhanghaologin .cardtop li:nth-child(1) {
+        width: 1.44444rem;
+        text-align: center;
+        font-size: 0.38889rem;
+        color: #555;
+        font-family: '微软雅黑'; }
+      .fangshi .zhanghaologin .cardtop li:nth-child(2) {
+        width: 8.55556rem;
+        height: 1.25926rem;
+        line-height: 1.25926rem; }
+        .fangshi .zhanghaologin .cardtop li:nth-child(2) input {
+          outline: none;
+          border: none;
+          font-size: 0.38889rem;
+          color: #adadad;
+          font-family: '微软雅黑'; }
+    .fangshi .zhanghaologin .cardbottom {
+      display: flex;
+      height: 1.25926rem;
+      line-height: 1.25926rem; }
+      .fangshi .zhanghaologin .cardbottom li:nth-child(1) {
+        width: 1.44444rem;
+        text-align: center;
+        font-size: 0.38889rem;
+        color: #555;
+        font-family: '微软雅黑'; }
+      .fangshi .zhanghaologin .cardbottom li:nth-child(2) {
+        width: 8.55556rem;
+        height: 1.25926rem;
+        line-height: 1.25926rem;
+        border-top: 0.02778rem solid #ccc; }
+        .fangshi .zhanghaologin .cardbottom li:nth-child(2) input {
+          outline: none;
+          border: none;
+          font-size: 0.38889rem;
+          color: #adadad;
+          font-family: '微软雅黑'; }
+  .fangshi .fastlogin {
+    display: none;
+    background-color: #fff; }
+    .fangshi .fastlogin .cardtop {
+      display: flex;
+      height: 1.25926rem;
+      line-height: 1.25926rem; }
+      .fangshi .fastlogin .cardtop li:nth-child(1) {
+        width: 1.94444rem;
+        text-align: center;
+        font-size: 0.38889rem;
+        color: #555;
+        font-family: '微软雅黑'; }
+      .fangshi .fastlogin .cardtop li:nth-child(2) {
+        width: 8.05556rem;
+        height: 1.25926rem;
+        line-height: 1.25926rem; }
+        .fangshi .fastlogin .cardtop li:nth-child(2) input {
+          outline: none;
+          border: none;
+          font-size: 0.38889rem;
+          color: #adadad;
+          font-family: '微软雅黑'; }
+    .fangshi .fastlogin .cardbottom {
+      display: flex;
+      height: 1.25926rem;
+      line-height: 1.25926rem; }
+      .fangshi .fastlogin .cardbottom li:nth-child(1) {
+        width: 1.94444rem;
+        text-align: center;
+        font-size: 0.38889rem;
+        color: #555;
+        font-family: '微软雅黑'; }
+      .fangshi .fastlogin .cardbottom li:nth-child(2) {
+        display: flex;
+        justify-content: space-between;
+        width: 8.05556rem;
+        height: 1.25926rem;
+        line-height: 1.25926rem;
+        border-top: 0.02778rem solid #ccc; }
+        .fangshi .fastlogin .cardbottom li:nth-child(2) input {
+          outline: none;
+          border: none;
+          font-size: 0.38889rem;
+          color: #adadad;
+          font-family: '微软雅黑'; }
+        .fangshi .fastlogin .cardbottom li:nth-child(2) p {
+          width: 2.38889rem;
+          text-align: center;
+          font-size: 0.37037rem;
+          color: #ff6427;
+          font-family: '微软雅黑';
+          border-left: 0.02778rem solid #ccc; }
+
+.dengluba {
+  margin-top: 0.44444rem;
+  margin-left: 0.44444rem;
+  width: 9.11111rem;
+  height: 1.25926rem;
+  line-height: 1.25926rem;
+  text-align: center;
+  background-color: #e94e11;
+  color: #fff;
+  font-size: 0.42593rem;
+  font-family: '微软雅黑';
+  border-radius: 0.12963rem; }
+
+.underlogin {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.44444rem;
+  padding-right: 0.44444rem;
+  margin-top: 0.55556rem; }
+  .underlogin h3 {
+    font-size: 0.33333rem;
+    color: #adadad;
+    font-family: '微软雅黑'; }
+
+.down {
+  height: 0.68519rem;
+  padding-top: 0.35185rem;
+  padding-bottom: 0.35185rem;
+  margin-top: 4.94444rem;
+  background-color: #fff;
+  overflow: hidden; }
+  .down ul {
+    display: flex; }
+    .down ul li {
+      display: flex;
+      justify-content: space-around;
+      width: 2.24074rem;
+      height: 0.66667rem;
+      padding-left: 0.55556rem;
+      padding-right: 0.55556rem;
+      line-height: 0.66667rem; }
+    .down ul .one i {
+      color: #51c332;
+      font-size: 0.48148rem; }
+    .down ul .one h3 {
+      font-size: 0.33333rem;
+      color: #555;
+      font-family: '微软雅黑'; }
+    .down ul .two {
+      border-left: 0.02778rem solid #ccc;
+      border-right: 0.02778rem solid #ccc; }
+      .down ul .two i {
+        color: #57a6fe;
+        font-size: 0.48148rem; }
+      .down ul .two h3 {
+        font-size: 0.33333rem;
+        color: #555;
+        font-family: '微软雅黑'; }
+    .down ul .three i {
+      color: #ff7523;
+      font-size: 0.48148rem; }
+    .down ul .three h3 {
+      font-size: 0.33333rem;
+      color: #555;
+      font-family: '微软雅黑'; }

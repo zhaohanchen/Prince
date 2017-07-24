@@ -1,0 +1,431 @@
+@charset "UTF-8";
+a {
+  text-decoration: none; }
+
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1.98148rem;
+  z-index: 99;
+  overflow: hidden;
+  background-color: #fff; }
+  .top .kong1 {
+    height: 0.64815rem;
+    border-top: 0.01852rem solid #ccc; }
+  .top .cardhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.33333rem;
+    padding-left: 0.50926rem;
+    padding-right: 0.50926rem; }
+    .top .cardhead li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1.55556rem;
+      height: 1.27778rem;
+      font-size: 0.35185rem;
+      font-family: '微软雅黑';
+      color: #555; }
+    .top .cardhead .head1 {
+      color: #ff6600;
+      border-bottom: 0.05556rem solid #ff6600; }
+
+.cards .card1 .aboutflower {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.98148rem; }
+  .cards .card1 .aboutflower h3 {
+    font-size: 0.37037rem;
+    font-family: '微软雅黑'; }
+  .cards .card1 .aboutflower .huayu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.97222rem;
+    height: 1.52778rem;
+    background-color: #c1a485; }
+    .cards .card1 .aboutflower .huayu h3 {
+      color: #fff; }
+    .cards .card1 .aboutflower .huayu span {
+      position: absolute;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-width: 0.18519rem;
+      border-style: solid;
+      border-color: transparent transparent #fff transparent; }
+  .cards .card1 .aboutflower .gonglue {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.97222rem;
+    height: 1.52778rem;
+    background-color: #efefef; }
+    .cards .card1 .aboutflower .gonglue h3 {
+      color: #777; }
+    .cards .card1 .aboutflower .gonglue span {
+      position: absolute;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-width: 0.18519rem;
+      border-style: solid;
+      border-color: transparent transparent #efefef transparent; }
+
+.cards .card1 .twocards {
+  position: relative; }
+  .cards .card1 .twocards .huayucard {
+    position: absolute;
+    height: 12.5463rem; }
+    .cards .card1 .twocards .huayucard .sousuo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+      height: 1.66667rem; }
+      .cards .card1 .twocards .huayucard .sousuo form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0.33333rem;
+        padding-right: 0.33333rem;
+        width: 8.74074rem;
+        height: 1.11111rem;
+        background-color: #f3f3f6; }
+        .cards .card1 .twocards .huayucard .sousuo form i {
+          font-size: 0.44444rem;
+          color: #bbb; }
+        .cards .card1 .twocards .huayucard .sousuo form .search i {
+          font-size: 0.40741rem;
+          color: #bebebe; }
+        .cards .card1 .twocards .huayucard .sousuo form .search input {
+          width: 7.22222rem;
+          height: 0.33333rem;
+          line-height: 120%;
+          border: none;
+          outline: none;
+          font-size: 0.33333rem;
+          color: #adadad;
+          background-color: #f3f3f6; }
+        .cards .card1 .twocards .huayucard .sousuo form h2 {
+          font-size: 0.37037rem;
+          color: #555;
+          font-family: '微软雅黑'; }
+    .cards .card1 .twocards .huayucard .hot {
+      display: flex;
+      align-items: center;
+      height: 1.05556rem; }
+      .cards .card1 .twocards .huayucard .hot h3 {
+        margin-left: 0.2963rem;
+        font-size: 0.31481rem;
+        color: #555;
+        font-family: '微软雅黑'; }
+    .cards .card1 .twocards .huayucard .flowernames {
+      width: 9.40741rem;
+      height: 1.94444rem;
+      margin-left: 0.2963rem; }
+      .cards .card1 .twocards .huayucard .flowernames .name-top {
+        display: flex;
+        justify-content: space-between;
+        height: 0.64815rem;
+        margin-top: 0.11111rem; }
+        .cards .card1 .twocards .huayucard .flowernames .name-top a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 1.75rem;
+          height: 0.61111rem;
+          border: 0.01852rem solid #ccc;
+          border-radius: 0.09259rem; }
+          .cards .card1 .twocards .huayucard .flowernames .name-top a li {
+            font-size: 0.2963rem;
+            color: #9b9b9b;
+            font-family: '微软雅黑'; }
+      .cards .card1 .twocards .huayucard .flowernames .name-bottom {
+        display: flex;
+        justify-content: space-between;
+        height: 0.64815rem;
+        margin-top: 0.40741rem; }
+        .cards .card1 .twocards .huayucard .flowernames .name-bottom a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 1.75rem;
+          height: 0.61111rem;
+          border: 0.01852rem solid #ccc;
+          border-radius: 0.09259rem; }
+          .cards .card1 .twocards .huayucard .flowernames .name-bottom a li {
+            font-size: 0.2963rem;
+            color: #9b9b9b;
+            font-family: '微软雅黑'; }
+    .cards .card1 .twocards .huayucard .kong3 {
+      height: 0.18519rem; }
+    .cards .card1 .twocards .huayucard .pictures {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 0.2963rem;
+      width: 9.40741rem;
+      height: 7.77778rem; }
+      .cards .card1 .twocards .huayucard .pictures img {
+        width: 4.62963rem; }
+  .cards .card1 .twocards .gongluecard {
+    position: absolute;
+    display: none; }
+    .cards .card1 .twocards .gongluecard div {
+      height: 8.44444rem;
+      border-bottom: 0.01852rem solid #efefef; }
+      .cards .card1 .twocards .gongluecard div img {
+        width: 10rem;
+        height: 7.08333rem; }
+      .cards .card1 .twocards .gongluecard div h5 {
+        margin-top: 0.25rem;
+        margin-left: 0.31481rem;
+        font-size: 0.37037rem;
+        color: #555;
+        font-family: '微软雅黑'; }
+      .cards .card1 .twocards .gongluecard div p {
+        margin-top: 0.2037rem;
+        margin-left: 0.31481rem;
+        font-size: 0.22222rem;
+        color: #999;
+        font-family: '微软雅黑'; }
+
+.cards .card2 {
+  display: none;
+  margin-top: 1.98148rem;
+  width: 100%;
+  height: 14.7963rem; }
+  .cards .card2 a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 14.7963rem; }
+    .cards .card2 a div {
+      position: absolute;
+      bottom: 0;
+      left: 0.31481rem;
+      width: 9.38889rem;
+      height: 3.61111rem;
+      background: -webkit-linear-gradient(top, white, rgba(255, 0, 0, 0)); }
+      .cards .card2 a div h2 {
+        position: absolute;
+        top: 0.25926rem;
+        left: 0.2963rem;
+        font-size: 0.31481rem;
+        font-family: '微软雅黑';
+        color: #fe8a3d; }
+      .cards .card2 a div span {
+        position: absolute;
+        top: 0.25926rem;
+        left: 1.85185rem;
+        font-size: 0.31481rem;
+        font-family: '微软雅黑';
+        color: #fe8a3d; }
+      .cards .card2 a div h3 {
+        position: absolute;
+        top: 0.2963rem;
+        right: 0.2963rem;
+        font-size: 0.24074rem;
+        font-family: '微软雅黑';
+        color: #555; }
+      .cards .card2 a div p {
+        position: absolute;
+        top: 0.83333rem;
+        left: 0.2963rem;
+        width: 8.66667rem;
+        line-height: 150%;
+        font-size: 0.31481rem;
+        font-family: '微软雅黑';
+        color: #555; }
+  .cards .card2 .card2-1 {
+    background-image: url("../images/manhua1.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -8.33333rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-2 {
+    background-image: url("../images/manhua2.jpg");
+    background-size: 180% 14.7963rem;
+    background-position: -2.77778rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-3 {
+    background-image: url("../images/manhua3.jpg");
+    background-size: 170% 14.7963rem;
+    background-position: -5.55556rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-4 {
+    background-image: url("../images/manhua4.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -1.85185rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-5 {
+    background-image: url("../images/manhua5.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -8.33333rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-6 {
+    background-image: url("../images/manhua6.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -8.33333rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-7 {
+    background-image: url("../images/manhua7.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -8.33333rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-8 {
+    background-image: url("../images/manhua8.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -8.33333rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-9 {
+    background-image: url("../images/manhua9.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -3.24074rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-10 {
+    background-image: url("../images/manhua10.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -4.62963rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-11 {
+    background-image: url("../images/manhua11.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -1.38889rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-12 {
+    background-image: url("../images/manhua12.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -5.55556rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-13 {
+    background-image: url("../images/manhua13.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -8.33333rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-14 {
+    background-image: url("../images/manhua14.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -8.33333rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-15 {
+    background-image: url("../images/manhua15.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -8.33333rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-16 {
+    background-image: url("../images/manhua16.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -8.33333rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-17 {
+    background-image: url("../images/manhua17.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -7.40741rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-18 {
+    background-image: url("../images/manhua18.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -0.46296rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-19 {
+    background-image: url("../images/manhua19.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -0.46296rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-20 {
+    background-image: url("../images/manhua20.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -8.33333rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-21 {
+    background-image: url("../images/manhua21.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -6.01852rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-22 {
+    background-image: url("../images/manhua22.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -2.31481rem 0;
+    background-repeat: no-repeat; }
+  .cards .card2 .card2-23 {
+    background-image: url("../images/manhua23.jpg");
+    background-size: 190% 14.7963rem;
+    background-position: -6.48148rem 0;
+    background-repeat: no-repeat; }
+
+.cards .card3 {
+  display: none; }
+
+.cards .card4 {
+  display: none; }
+
+.cards .common {
+  margin-top: 1.98148rem; }
+  .cards .common div {
+    height: 8.44444rem;
+    border-bottom: 0.01852rem solid #efefef; }
+    .cards .common div img {
+      width: 10rem;
+      height: 7.08333rem; }
+    .cards .common div h5 {
+      margin-top: 0.25rem;
+      margin-left: 0.31481rem;
+      font-size: 0.37037rem;
+      color: #555;
+      font-family: '微软雅黑'; }
+    .cards .common div p {
+      margin-top: 0.2037rem;
+      margin-left: 0.31481rem;
+      font-size: 0.22222rem;
+      color: #999;
+      font-family: '微软雅黑'; }
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 1.2037rem;
+  border-top: 0.01852rem solid #ccc;
+  background-color: #f8f8f8; }
+  .nav div h3 {
+    font-size: 0.2963rem;
+    font-family: '微软雅黑';
+    color: #777; }
+  .nav .nav-1 h3 {
+    margin-top: 0.01852rem; }
+  .nav .nav-1 i {
+    font-size: 0.55556rem;
+    color: #777; }
+  .nav .nav-2 {
+    margin-top: 0.09259rem; }
+    .nav .nav-2 h3 {
+      margin-top: 0.09259rem; }
+    .nav .nav-2 i {
+      margin-left: 0.05556rem;
+      font-size: 0.40741rem;
+      color: #777; }
+  .nav .nav-3 i {
+    font-size: 0.59259rem;
+    color: #ff6427; }
+  .nav .nav-4 h3 {
+    margin-top: 0.09259rem; }
+  .nav .nav-4 i {
+    margin-left: 0.09259rem;
+    font-size: 0.51852rem;
+    color: #777; }
+  .nav .nav-5 h3 {
+    margin-top: 0.09259rem; }
+  .nav .nav-5 i {
+    font-size: 0.51852rem;
+    color: #777; }

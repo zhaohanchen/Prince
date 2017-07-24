@@ -1,0 +1,208 @@
+// 将px转换为rem单位，在任何手机端同样适用
+@function rem($arg) {
+    // 你的页面是多少除以多少
+    @return $arg/108px * 1rem;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    position: relative;
+    /* start 表格*/
+    height: rem(1920px);
+    width: rem(1080px);
+    .layout {
+        width: rem(984px);
+        height: rem(1188px);
+        padding-top: rem(30px);
+        padding-right: rem(48px);
+        padding-bottom: rem( 30px);
+        padding-left: rem(48px);
+        .logo {
+            height: rem(78px);
+            width: 50%;
+            margin: 0 auto;
+            margin-top: rem(120px);
+            margin-bottom: rem( 120px);
+            img {
+                width: rem(492px);
+                height: rem(78px);
+            }
+        }
+        .biaodan {
+            width: rem(738px);
+            height: rem(525px);
+            padding-left: rem(36px);
+            padding-right: rem(36px);
+            margin-left: rem(87px);
+            margin-right: rem(87px);
+            margin-bottom: rem(60px);
+            #login {
+                display: flex;
+                flex-direction: column;
+                width: rem(738px);
+                height: rem(525px);
+                .input_box {
+                    position: relative;
+                    display: block;
+                    width: rem(246px*3);
+                    height: rem(120px);
+                    line-height: rem(60px);
+                    padding: rem(30px);
+                    width: 100%;
+                    box-sizing: border-box;
+                    font-size: rem(42px);
+                    margin-bottom: rem(36px);
+                    border-radius: rem(36px);
+                    color: #313131;
+                    border: 1px solid #ddd;
+                    background: #fff;
+                    .id-icon {
+                        background: url('../images/id.png') no-repeat;
+                        width: rem(105px);
+                        height: rem(75px);
+                        background-size: 60%;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                    .pwd-icon {
+                        background: url('../images/pwd.png') no-repeat;
+                        width: rem(105px);
+                        height: rem(75px);
+                        background-size: 60%;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                    input {
+                        border: none;
+                        width: 70%;
+                        font-size: rem(48px);
+                        margin-top: rem(-15px);
+                    }
+                }
+            }
+            .sjdl {
+                display: block;
+                text-align: right;
+                margin-top: rem(30px);
+                margin-bottom: rem(45px);
+                a {
+                    color: #e8380d;
+                }
+            }
+            .btn-reg {
+                width: rem(738px);
+                height: rem(120px);
+                .sbtn {
+                    width: 100%;
+                    text-align: center;
+                    cursor: pointer;
+                    margin-bottom: rem(48px);
+                    box-sizing: border-box;
+                    display: block;
+                    font-size: rem(48px);
+                    min-height: rem(120px);
+                    line-height: rem(60px);
+                    padding: rem(30px);
+                    border-radius: rem(30px);
+                    color: #fff;
+                    background: #e8380d;
+                }
+            }
+        }
+        .row {
+            width: rem(984px);
+            height: rem(210px);
+            text-align: center;
+            font-size: rem(42px);
+            .divider {
+                position: relative;
+                overflow: hidden;
+                height: rem(42px);
+                line-height: 1;
+                text-align: center;
+                width: 75%;
+                margin: 0 auto;
+                margin-top: rem(120px);
+                margin-bottom: rem(48px);
+                i {
+                    color: #929292;
+                }
+                i:before {
+                    content: "";
+                    position: absolute;
+                    z-index: 3;
+                    width: 50%;
+                    top: 50%;
+                    margin-left: rem(-388px);
+                    margin-left: calc(-50% - 1em);
+                    border-bottom: 1px solid #BDC1C3;
+                }
+                i:after {
+                    content: "";
+                    position: absolute;
+                    z-index: 3;
+                    width: 50%;
+                    top: 50%;
+                    margin-right: rem(-388px);
+                    margin-right: calc(-50% - 1em);
+                    border-bottom: 1px solid #BDC1C3;
+                }
+            }
+            .third-login {
+                width: rem(984px);
+                height: rem(120px);
+                margin-top: rem(15px);
+                margin-bottom: rem(15px);
+                overflow: hidden;
+                .login-rem {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: rem(60px);
+                    cursor: default;
+                    vertical-align: middle;
+                    .qq {
+                        display: block;
+                        background: url('../images/third_login_1.png') no-repeat 0 0;
+                        width: rem(105px);
+                        height: rem(105px);
+                        background-size: cover;
+                        margin-left: rem(36px);
+                        margin-right: rem(36px);
+                    }
+                    .weibo {
+                        @extend .qq;
+                        background-position: rem(-35px*3) 0;
+                    }
+                    .alipay {
+                        @extend .qq;
+                        background-position: rem(-70px*3) 0;
+                    }
+                }
+            }
+        }
+    }
+    /* end 表格*/
+    /*底部 start*/
+    .btn-bottom {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: rem(1080px);
+        height: rem(138px);
+        a {
+            display: block;
+            color: #303028;
+            line-height: rem(60px);
+            padding-left: rem(66px);
+            padding-right: rem(66px);
+            font-size: rem(42px);
+            display: inline-block;
+            margin-bottom: 5%;
+        }
+    }
+    /*底部 end*/
+}
